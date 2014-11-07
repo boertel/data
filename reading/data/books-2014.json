@@ -13,5 +13,7 @@
     {"start_date": "2014-05-27", "end_date": "2014-06-11", "language": "en", "year": 2007, "pages": 232, "title": "Deep Economy", "author": "Bill McKibben"},
     {"start_date": "2014-06-12", "end_date": "2014-06-22", "language": "fr", "year": 1984, "pages": 470, "title": "L'Enchanteur", "author": "Réné Barjavel"},
     {"start_date": "2014-06-23", "end_date": "2014-07-05", "language": "fr", "year": 2002, "pages": 670, "title": "Les Derniers Hommes", "author": "Pierre Bordage"},
-    {"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130, "title": "The Island of Doctor Moreau", "author": "H. G. Wells"}
+    {"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130, "title": "The Island of Doctor Moreau", "author": "H. G. Wells"},
+    {"start_date": "2014-07-08", "end_date": "2014-08-07", "language": "en", "year": 1921, "pages": 226, "title": "We", "author": "Yevgeny Zamyatin"},
+    {"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288, "title": "Ravage", "author": "Réné Barjavel"}
 ]
