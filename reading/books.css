@@ -1,0 +1,131 @@
+body {
+  font-family: Georgia, Times, serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #f0e1ca;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444;
+  text-align: center;
+  font-family: "Vollkorn", Georgia, Times, serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 68px;
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 38px;
+  margin: 0 0 10px 0;
+}
+h4 {
+  font-size: 22px;
+  margin: 6px 0 6px 0;
+}
+h5 {
+  font-size: 16px;
+  margin-top: 8px;
+}
+span.amp {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif !important;
+  font-weight: normal;
+  font-style: italic;
+}
+::selection {
+  background-color: #d45849;
+  color: #ffffff;
+}
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+#chart-book {
+    text-align: center;
+    height: 270px;
+}
+#chart-numbers {
+  overflow: hidden;
+}
+#chart-numbers > div {
+  float: left;
+  width: 33%;
+}
+#book-info {
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  min-height: 100px;
+}
+.bar {
+  color: #d45849;
+}
+h4 .bar {
+  font-size: 22px;
+}
+#book-info h4.info {
+  font-size: 18px;
+}
+#book-info h4.info em {
+  font-size: 22px;
+}
+.subtle {
+  color: #996633;
+}
+footer {
+  margin: 60px 0 20px 0;
+  text-align: center;
+  color: #996633;
+}
+footer a {
+  color: #c0aa88;
+}
+footer a:hover {
+  color: #a28963;
+}
+/** Chart **/
+.click-capture {
+  pointer-events: all;
+  visibility: hidden;
+}
+.lines,
+.pages,
+.range {
+  pointer-events: none;
+}
+rect {
+  shape-rendering: crispedges;
+}
+.book {
+  fill: #d45849;
+}
+.book:hover {
+  cursor: help;
+}
+.hidden {
+  display: none;
+}
+line.dot {
+  stroke: #996633;
+  stroke-width: 2px;
+  shape-rendering: crispedges;
+  stroke-dasharray: 2, 2;
+}
+.lines.x line,
+.range line {
+  stroke: #996633;
+  stroke-width: 2px;
+  shape-rendering: crispedges;
+}
+.range line {
+  stroke: #444444;
+}
+text {
+  font: 30px Georgia;
+  fill: #996633;
+}

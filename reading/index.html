@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Books & Numbers</title>
+    <link href='//fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./books.css" />
+</head>
+<body>
+
+<div id="content">
+    <h1><span class="bar">B</span>ooks <span class="amp">&</span> Numbers</h1>
+
+    <div id="book-wrapper">
+        <div id="chart-book"></div>
+
+        <div id="book-info">
+            <h4 id="placeholder">Hover the cursor over one of the <span class="bar">&#9610;</span>to get more info about a book.</h4>
+            <div id="book-detail"></div>
+        </div>
+    </div>
+
+    <div id="chart-numbers">
+        <div class="">
+            <h3 class="d3-data subtle" data-attribute="pages"></h3>
+            <h5>pages <small>in average</small></h5>
+        </div>
+        <div class="">
+            <h3 class="d3-data subtle" data-attribute="days"></h3>
+            <h5>days <small>per book</small></h5>
+        </div>
+        <div class="">
+            <h3 class="d3-data subtle" data-attribute="average" data-format="f"></h3>
+            <h5>books <small>total</small></h5>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Created by <a href="https://twitter.com/boertel" target="_blank">Benjamin Oertel</a> and it's open-source on <a href="https://github.com/boertel/isbenjam.in/tree/gh-pages/reading" target="_blank">github</a>.</p>
+</footer>
+
+<script type="text/javascript" src="/static/js/d3.min.js"></script>
+<script type="text/javascript" src="./books.js"></script>
+
+</body>
+</html>
