@@ -2,6 +2,16 @@ var formats = {
     date: d3.time.format("%Y-%m-%d").parse
 };
 
+function showData(d) {
+    return function () {
+        var node = d3.select(this),
+            attribute = node.attr('data-attribute'),
+            format = node.attr("data-format") || ".1f";
+
+        node.text(d3.format(format)(d[attribute]));
+    }
+}
+
 d3.json("./data/books-2014.json", function (books) {
     window.books = books;
     books.forEach(function (d) {
@@ -9,6 +19,7 @@ d3.json("./data/books-2014.json", function (books) {
         d.end_date = formats.date(d.end_date);
         d.days = (d.end_date - d.start_date) / (1000 * 60 * 60 * 24);
         d.average = d.pages / d.days;
+        d.books = 1;
     });
 
     books.sort(function (a, b) {
@@ -102,20 +113,13 @@ d3.json("./data/books-2014.json", function (books) {
 
     /* HTML representation */
     var data = {
-        total_books: books.length,
-        total_pages: d3.sum(books, function (d) { return d.pages; }),
-        total_days: d3.sum(books, function (d) { return (d.end_date - d.start_date) / (1000*60*60*24); })
+        books: books.length,
+        pages: d3.sum(books, function (d) { return d.pages; }),
+        days: d3.sum(books, function (d) { return (d.end_date - d.start_date) / (1000*60*60*24); })
     };
-    data.average_pages = data.total_pages / data.total_books;
-    data.average_days = data.total_days / data.total_books;
+    data.average = data.pages / data.days;
 
-    d3.selectAll(".d3-data").each(function () {
-        var node = d3.select(this),
-            attribute = node.attr("data-attribute"),
-            format = node.attr("data-format") || ".1f";
-
-        node.text(d3.format(format)(data[attribute]));
-    });
+    d3.selectAll(".d3-data").each(showData(data));
 
     Pages = function () {
         this.node = svg.append("g")
@@ -185,18 +189,14 @@ d3.json("./data/books-2014.json", function (books) {
             .attr("x", x(d.end_date) + 5)
             .text(d3.time.format("%b. %d")(d.end_date))
 
-        d3.selectAll(".d3-data").each(function () {
-            var node = d3.select(this),
-                attribute = node.attr('data-attribute'),
-                format = node.attr("data-format") || ".1f";
-
-            node.text(d3.format(format)(d[attribute]));
-        });
+        d3.selectAll(".d3-data").each(showData(d));
     };
     Pages.prototype.mouseout = function () {
         d3.selectAll(".lines.y g:not(:first-child), .lines.x").style("display", "block")
         this.node.style("display", "none")
         this.range.style("display", "none")
+
+         d3.selectAll(".d3-data").each(showData(data));
     };
 
     var pages = new Pages();

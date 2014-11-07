@@ -9,7 +9,7 @@
 <body>
 
 <div id="content">
-    <h1><span class="bar">B</span>ooks <span class="amp">&</span> Numbers</h1>
+    <h1><span class="d3-data" data-attribute="books" data-format="f">?</span>&nbsp;<span class="bar">B</span>ooks <span class="amp">&</span> Numbers</h1>
 
     <div id="book-wrapper">
         <div id="chart-book"></div>
@@ -22,23 +22,23 @@
 
     <div id="chart-numbers">
         <div class="">
-            <h3 class="d3-data subtle" data-attribute="pages"></h3>
-            <h5>pages <small>in average</small></h5>
+            <h3 class="d3-data subtle" data-attribute="pages" data-format=",1f"></h3>
+            <h5>pages</h5>
         </div>
         <div class="">
-            <h3 class="d3-data subtle" data-attribute="days"></h3>
-            <h5>days <small>per book</small></h5>
+            <h3 class="d3-data subtle" data-attribute="days" data-format="f"></h3>
+            <h5>days</h5>
         </div>
         <div class="">
-            <h3 class="d3-data subtle" data-attribute="average" data-format="f"></h3>
-            <h5>books <small>total</small></h5>
+            <h3 class="d3-data subtle" data-attribute="average"></h3>
+            <h5>pages per day</h5>
         </div>
     </div>
 
 </div>
 
 <footer>
-    <p>Created by <a href="https://twitter.com/boertel" target="_blank">Benjamin Oertel</a> and it's open-source on <a href="https://github.com/boertel/isbenjam.in/tree/gh-pages/reading" target="_blank">github</a>.</p>
+    <p>Created by <a href="http://blog.oertel.fr" target="_blank">Benjamin Oertel</a> and it's open-source on <a href="https://github.com/boertel/data" target="_blank">github</a>.</p>
 </footer>
 
 <script type="text/javascript" src="/static/js/d3.min.js"></script>
