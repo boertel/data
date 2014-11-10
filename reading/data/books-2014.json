@@ -18,5 +18,6 @@
     {"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288, "title": "Ravage", "author": "Réné Barjavel"},
     {"start_date": "2014-09-06", "end_date": "2014-11-06", "language": "en", "year": 1961, "pages": 412, "title": "Stranger in a Strange Land", "author": "Robert A. Heinlein"},
     {"start_date": "2014-11-07", "end_date": "2014-11-08", "language": "fr", "year": 2005, "pages": 296, "title": "Hitler chef de guerre", "author": "Philippe Masson"},
-    {"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74, "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt"}
+    {"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74, "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt"},
+    {"start_date": "2014-11-11", "end_date": "2014-11-12", "language": "fr", "year": 1997, "pages": 84, "title": "Milarepa", "author": "Eric-Emmanuel Schmitt"}
 ]
