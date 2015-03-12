@@ -1,6 +1,7 @@
 [
-    {"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512, "title": "Au Bonheur des Dames", "author": "Emile Zola"}
-    ,{"start_date": "2015-01-17", "end_date": "2015-01-25", "language": "fr", "year": 2014, "pages": 586, "title": "La voix de la terre", "author": "Bernard Werber"}
-    ,{"start_date": "2015-01-18", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279, "title": "La peste", "author": "Albert Camus"}
-    ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett"}
+    {"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512, "title": "Au Bonheur des Dames", "author": "Emile Zola", "rating": 3.5}
+    ,{"start_date": "2015-01-17", "end_date": "2015-01-25", "language": "fr", "year": 2014, "pages": 586, "title": "La voix de la terre", "author": "Bernard Werber", "rating": 3.5}
+    ,{"start_date": "2015-01-18", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279, "title": "La peste", "author": "Albert Camus", "rating": 4.0}
+    ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett", "rating": 2.0}
+    ,{"start_date": "2015-02-06", "end_date": "2015-03-11", "language": "en", "year": 1968, "pages": 650, "title": "Stand on Zanzibar", "author": "John Brunner", "rating": 2.0}
 ]
