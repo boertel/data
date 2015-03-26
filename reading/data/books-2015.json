@@ -4,4 +4,5 @@
     ,{"start_date": "2015-01-18", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279, "title": "La peste", "author": "Albert Camus", "rating": 4.0}
     ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett", "rating": 2.0}
     ,{"start_date": "2015-02-06", "end_date": "2015-03-11", "language": "en", "year": 1968, "pages": 650, "title": "Stand on Zanzibar", "author": "John Brunner", "rating": 2.0}
+    ,{"start_date": "2015-03-12", "end_date": "2015-03-26", "language": "fr", "year": 1848, "pages": 314, "title": "La Dame aux camélias", "author": "Alexandre Dumas fils", "rating": 4.0}
 ]
