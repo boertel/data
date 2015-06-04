@@ -5,6 +5,8 @@
     ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett", "rating": 2.0}
     ,{"start_date": "2015-02-06", "end_date": "2015-03-11", "language": "en", "year": 1968, "pages": 650, "title": "Stand on Zanzibar", "author": "John Brunner", "rating": 2.0}
     ,{"start_date": "2015-03-12", "end_date": "2015-03-26", "language": "fr", "year": 1848, "pages": 314, "title": "La Dame aux camélias", "author": "Alexandre Dumas fils", "rating": 4.0}
-    ,{"start_date": "2015-03-27", "end_date": "2015-04-02", "language": "en", "year": 1895, "pages": 80, "title": "the time machine", "author": "H.G. Wells", "rating": 4.0}
+    ,{"start_date": "2015-03-27", "end_date": "2015-04-02", "language": "en", "year": 1895, "pages": 80, "title": "the time machine", "author": "H.G. Wells", "rating": 3.5}
     ,{"start_date": "2015-04-03", "end_date": "2015-04-24", "language": "fr", "year": 1947, "pages": 350, "title": "Le journal d'Anne Frank", "author": "Anne Frank", "rating": 4.0}
+    ,{"start_date": "2015-04-25", "end_date": "2015-05-05", "language": "fr", "year": 2013, "pages": 384, "title": "La cuisinière d'Himmler", "author": "Franz-Olivier Giesbert", "rating": 4.0}
+    ,{"start_date": "2015-05-06", "end_date": "2015-05-11", "language": "fr", "year": 2010, "pages": 304, "title": "Une année chez les Français", "author": "Fouad Laroui", "rating": 4.0}
 ]
