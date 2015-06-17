@@ -283,12 +283,15 @@ Pages.prototype.mouseover = function (d) {
         .duration(750)
         .ease("cubic-out")
         .attr("transform", function () {
-            var limit = 0.75,
-                max = y(0);
-            // define min value so it's not overlapping with "pages" label
-            var yValue = (max * limit < y(d.pages)) ? Math.floor(max * limit) : y(d.pages);
-            return "translate(0, " + (yValue + padding.top) + ")";
+            return "translate(0, " + (y(d.pages) + padding.top) + ")";
         });
+
+    var limit = 0.75,
+        max = y(0);
+    // define min value so it's not overlapping with "pages" label
+    var yValue = y(d.pages) > (max * limit) ? - (y(d.pages) - (max * limit)) : 6;
+
+    this.text.attr("y", yValue);
     this.text.text(d.pages)
 
     this.start_date.attr("transform", "translate(" + x(d.start_date) + ", 0)")
