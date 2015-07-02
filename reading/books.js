@@ -6,7 +6,7 @@ var formats = {
     date: d3.time.format("%Y-%m-%d").parse
 };
 
-function preformat(books) {
+function preformat(year, books) {
     books.forEach(function (d) {
         d.start_date = formats.date(d.start_date);
         d.end_date = formats.date(d.end_date);
@@ -18,6 +18,7 @@ function preformat(books) {
     books.sort(function (a, b) {
         return (a.start_date < b.start_date) ? -1 : 1;
     });
+
     return books;
 }
 
@@ -86,7 +87,7 @@ function update (year, books) {
         .text(function (d, i) { return i == 0 ? "pages" : d; })
 
     /* Bars */
-    var shelf = bars.selectAll('g.shelf').data(window.books, function (d) { return d.title; })
+    var shelf = bars.selectAll('g.shelf').data(books, function (d) { return d.title; })
 
     shelf.exit()
         .remove()
@@ -145,12 +146,21 @@ function update (year, books) {
 
 var data, pages;
 
-function load(year) {
-    d3.json("./data/books-" + year + ".json", function (books) {
+var year = 2014;
+
+function loadJSON() {
+    d3.json("./data/books.json", function (books) {
         window.books = books;
-        books = preformat(books);
-        update(year, books);
+        books = preformat(year, books);
+        loadBooks(year, books);
     });
+}
+
+function loadBooks(year, books) {
+    books = books.filter(function (book) {
+        return book.end_date.getFullYear() === year;
+    });
+    update(year, books);
 }
 
 
@@ -337,4 +347,4 @@ d3.select("body")
     });
 
 // main
-load(2014)
+loadJSON()
