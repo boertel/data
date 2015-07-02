@@ -64,6 +64,7 @@ span.amp {
 }
 .bar {
   color: #d45849;
+  opacity: 0.75;
 }
 h4 .bar {
   font-size: 22px;
@@ -103,6 +104,7 @@ rect {
 }
 .book {
   fill: #d45849;
+  opacity: 0.75;
 }
 .book:hover {
   cursor: help;
