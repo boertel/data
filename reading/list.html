@@ -5,11 +5,35 @@
 	<title>Books & Numbers</title>
     <link href='//fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./books.css" />
+    <style>
+    #list {
+        width: 100%;
+    }
+    .book {
+        position: relative;
+        height: 2em;
+        margin-bottom: 0.2em;
+    }
+    .description {
+        line-height: 2em;
+        padding-left: 0.5em;
+    }
+    .field {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #d45849;
+        opacity: 0.5;
+        z-index: -1;
+    }
+    </style>
 </head>
 <body>
 
 <div id="content">
-
+    <h1><span class="bar">B</span>ooks</h1>
+    <div id="list"></div>
 </div>
 
 <footer>
