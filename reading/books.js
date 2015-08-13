@@ -146,7 +146,7 @@ function update (year, books) {
 
 var data, pages;
 
-var year = 2014;
+var year = 2015;
 
 function loadJSON() {
     d3.json("./data/books.json", function (books) {
