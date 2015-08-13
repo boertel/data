@@ -2,25 +2,6 @@ d3.selection.prototype.pluralize = function () {
     console.log(this);
 };
 
-var formats = {
-    date: d3.time.format("%Y-%m-%d").parse
-};
-
-function preformat(year, books) {
-    books.forEach(function (d) {
-        d.start_date = formats.date(d.start_date);
-        d.end_date = formats.date(d.end_date);
-        d.days = (d.end_date - d.start_date) / (1000 * 60 * 60 * 24);
-        d.average = d.pages / d.days;
-        d.books = 1;
-    });
-
-    books.sort(function (a, b) {
-        return (a.start_date < b.start_date) ? -1 : 1;
-    });
-
-    return books;
-}
 
 function update (year, books) {
     var extrems = {
@@ -148,20 +129,6 @@ var data, pages;
 
 var year = 2015;
 
-function loadJSON() {
-    d3.json("./data/books.json", function (books) {
-        window.books = books;
-        books = preformat(year, books);
-        loadBooks(year, books);
-    });
-}
-
-function loadBooks(year, books) {
-    books = books.filter(function (book) {
-        return book.end_date.getFullYear() === year;
-    });
-    update(year, books);
-}
 
 
 var margin = {
@@ -347,4 +314,13 @@ d3.select("body")
     });
 
 // main
-loadJSON()
+function loadBooks(year, books) {
+    books = books.filter(function (book) {
+        return book.end_date.getFullYear() === year;
+    });
+    update(year, books);
+}
+
+loadJSON(function (books) {
+    loadBooks(year, books);
+});

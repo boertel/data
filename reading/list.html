@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Books & Numbers</title>
+    <link href='//fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./books.css" />
+    <style>
+    #list {
+        width: 100%;
+    }
+    .book {
+        position: relative;
+        height: 2em;
+        margin-bottom: 0.2em;
+    }
+    .description {
+        line-height: 2em;
+        padding-left: 0.5em;
+    }
+    .field {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #d45849;
+        opacity: 0.5;
+        z-index: -1;
+    }
+    </style>
+</head>
+<body>
+
+<div id="content">
+    <h1><span class="bar">B</span>ooks</h1>
+    <div id="list"></div>
+</div>
+
+<footer>
+    <p>Created by <a href="http://blog.oertel.fr" target="_blank">Benjamin Oertel</a> and it's open-source on <a href="https://github.com/boertel/data" target="_blank">GitHub</a>.</p>
+</footer>
+
+<script type="text/javascript" src="/static/js/d3.min.js"></script>
+<script type="text/javascript" src="./reading.js"></script>
+<script type="text/javascript" src="./list.js"></script>
+
+</body>
+</html>
+
