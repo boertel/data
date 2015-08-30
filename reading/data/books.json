@@ -37,4 +37,5 @@
     ,{"start_date": "2015-07-01", "end_date": "2015-07-07", "language": "en", "year": 2012, "pages": 448, "title": "The Innocent", "author": "David Baldacci", "rating": 1.5, "isbn": "9781455519002"}
     ,{"start_date": "2015-07-08", "end_date": "2015-07-22", "language": "en", "year": 1929, "pages": 355, "title": "A Farewell to Arms", "author": "Ernest Hemingway", "rating": 4, "isbn": "9780684102375"}
     ,{"start_date": "2015-08-10", "end_date": "2015-08-12", "language": "en", "year": 2011, "pages": 369, "title": "The Martian", "author": "Andy Weir", "rating": 4, "isbn": "9780804139021"}
+    ,{"start_date": "2015-08-23", "end_date": "2015-08-29", "language": "fr", "year": 1931, "pages": 187, "title": "Vol de nuit", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360040"}
 ]
