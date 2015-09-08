@@ -116,7 +116,7 @@ function update (year, books) {
     data = {
         books: books.length,
         pages: d3.sum(books, function (d) { return d.pages; }),
-        days: d3.sum(books, function (d) { return (d.end_date - d.start_date) / (1000*60*60*24); })
+        days: d3.sum(books, function (d) { return (d.end_date - d.start_date) / (1000*60*60*24) + 1; })
     };
 
     data.average = data.pages / data.days;

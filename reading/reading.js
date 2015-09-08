@@ -6,7 +6,7 @@ function preformat(books) {
     books.forEach(function (d) {
         d.start_date = formats.date(d.start_date);
         d.end_date = formats.date(d.end_date);
-        d.days = (d.end_date - d.start_date) / (1000 * 60 * 60 * 24);
+        d.days = (d.end_date - d.start_date) / (1000 * 60 * 60 * 24) + 1;
         d.average = d.pages / d.days;
         d.books = 1;
     });

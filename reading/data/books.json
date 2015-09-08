@@ -33,7 +33,7 @@
     ,{"start_date": "2015-04-25", "end_date": "2015-05-05", "language": "fr", "year": 2013, "pages": 384, "title": "La cuisinière d'Himmler", "author": "Franz-Olivier Giesbert", "rating": 4.0}
     ,{"start_date": "2015-05-06", "end_date": "2015-05-11", "language": "fr", "year": 2010, "pages": 304, "title": "Une année chez les Français", "author": "Fouad Laroui", "rating": 4.0}
     ,{"start_date": "2015-05-12", "end_date": "2015-06-30", "language": "fr", "year": 1991, "pages": 620, "title": "Le monde de Sophie", "author": "Jostein Gaarder", "rating": 3.5}
-    ,{"start_date": "2015-06-27", "end_date": "2015-06-28", "language": "fr", "year": 1953, "pages": 57, "title": "L'homme qui plantait des arbres", "author": "Jean Giono", "rating": 3.5}
+    ,{"start_date": "2015-06-27", "end_date": "2015-06-27", "language": "fr", "year": 1953, "pages": 57, "title": "L'homme qui plantait des arbres", "author": "Jean Giono", "rating": 3.5}
     ,{"start_date": "2015-07-01", "end_date": "2015-07-07", "language": "en", "year": 2012, "pages": 448, "title": "The Innocent", "author": "David Baldacci", "rating": 1.5, "isbn": "9781455519002"}
     ,{"start_date": "2015-07-08", "end_date": "2015-07-22", "language": "en", "year": 1929, "pages": 355, "title": "A Farewell to Arms", "author": "Ernest Hemingway", "rating": 4, "isbn": "9780684102375"}
     ,{"start_date": "2015-08-10", "end_date": "2015-08-12", "language": "en", "year": 2011, "pages": 369, "title": "The Martian", "author": "Andy Weir", "rating": 4, "isbn": "9780804139021"}
