@@ -39,4 +39,5 @@
     ,{"start_date": "2015-08-10", "end_date": "2015-08-12", "language": "en", "year": 2011, "pages": 369, "title": "The Martian", "author": "Andy Weir", "rating": 4, "isbn": "9780804139021"}
     ,{"start_date": "2015-08-23", "end_date": "2015-08-29", "language": "fr", "year": 1931, "pages": 187, "title": "Vol de nuit", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360040"}
     ,{"start_date": "2015-08-30", "end_date": "2015-09-05", "language": "fr", "year": 1957, "pages": 249, "title": "Hong-Kong et Macao", "author": "Joseph Kessel", "rating": 3.5, "isbn": "9782070440641"}
+    ,{"start_date": "2015-09-06", "end_date": "2015-09-07", "language": "fr", "year": 2008, "pages": 306, "title": "Montespan", "author": "Jean Teulé", "rating": 4.5, "isbn": "9782260017233"}
 ]
