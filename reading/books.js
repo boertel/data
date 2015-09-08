@@ -88,7 +88,13 @@ function update (year, books) {
     // and then give them the real value
     rects.transition()
         .duration(300)
-        .attr("width", function (d) { return x(d.end_date) - x(d.start_date); })
+        .attr("width", function (d) {
+            var end_date = new Date(d.end_date.getTime());
+            if (d.end_date.getTime() === d.start_date.getTime()) {
+                end_date.setDate(end_date.getDate() + 1);
+            }
+            return x(end_date) - x(d.start_date);
+        })
         .attr("y", function (d) { return y(d.pages); })
         .attr("height", function (d) { return height - y(d.pages); })
 
