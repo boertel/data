@@ -41,4 +41,5 @@
     ,{"start_date": "2015-08-30", "end_date": "2015-09-05", "language": "fr", "year": 1957, "pages": 249, "title": "Hong-Kong et Macao", "author": "Joseph Kessel", "rating": 3.5, "isbn": "9782070440641"}
     ,{"start_date": "2015-09-06", "end_date": "2015-09-07", "language": "fr", "year": 2008, "pages": 306, "title": "Montespan", "author": "Jean Teulé", "rating": 4.5, "isbn": "9782260017233"}
     ,{"start_date": "2015-09-08", "end_date": "2015-09-17", "language": "en", "year": 2001, "pages": 512, "title": "Jackdaws", "author": "Ken Follett", "rating": 3.5, "isbn": "9780451207524"}
+    ,{"start_date": "2015-09-18", "end_date": "2015-11-08", "language": "fr", "year": 1993, "pages": 636, "title": "Les guerriers du silence", "author": "Pierre Bordage", "rating": 3, "isbn": "9782905158697"}
 ]
