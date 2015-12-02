@@ -44,4 +44,5 @@
     ,{"start_date": "2015-09-18", "end_date": "2015-11-08", "language": "fr", "year": 1993, "pages": 636, "title": "Les guerriers du silence", "author": "Pierre Bordage", "rating": 3, "isbn": "9782905158697"}
     ,{"start_date": "2015-11-08", "end_date": "2015-11-10", "language": "fr", "year": 2013, "pages": 266, "title": "Fleur de tonnerre", "author": "Jean Teulé", "rating": 4, "isbn": "9782260020424"}
     ,{"start_date": "2015-11-11", "end_date": "2015-11-19", "language": "fr", "year": 2014, "pages": 142, "title": "L'Étrange Affaire du pantalon de Dassoukine", "author": "Fouad Laroui", "rating": 3, "isbn": "9782266238816"}
+    ,{"start_date": "2015-11-20", "end_date": "2015-12-01", "language": "en", "year": 1960, "pages": 376, "title": "To Kill a Mockingbird", "author": "Harper Lee", "rating": 5, "isbn": "9780446310789"}
 ]
