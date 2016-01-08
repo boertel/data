@@ -45,4 +45,7 @@
     ,{"start_date": "2015-11-08", "end_date": "2015-11-10", "language": "fr", "year": 2013, "pages": 266, "title": "Fleur de tonnerre", "author": "Jean Teulé", "rating": 4, "isbn": "9782260020424"}
     ,{"start_date": "2015-11-11", "end_date": "2015-11-19", "language": "fr", "year": 2014, "pages": 142, "title": "L'Étrange Affaire du pantalon de Dassoukine", "author": "Fouad Laroui", "rating": 3, "isbn": "9782266238816"}
     ,{"start_date": "2015-11-20", "end_date": "2015-12-01", "language": "en", "year": 1960, "pages": 376, "title": "To Kill a Mockingbird", "author": "Harper Lee", "rating": 5, "isbn": "9780446310789"}
+    ,{"start_date": "2015-12-02", "end_date": "2015-12-23", "language": "fr", "year": 2004, "pages": 516, "title": "Suite française", "author": "Irène Némirovsky", "rating": 3.5, "isbn": "9782207256459"}
+    ,{"start_date": "2015-12-24", "end_date": "2015-12-27", "language": "fr", "year": 2008, "pages": 300, "title": "Ulysse from Bagdad", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782226188618"}
+    ,{"start_date": "2015-12-29", "end_date": "2015-12-29", "language": "fr", "year": 2014, "pages": 144, "title": "La Fête de l'Insignifiance", "author": "Milan Kundera", "rating": 4, "isbn": "9782070145645"}
 ]
