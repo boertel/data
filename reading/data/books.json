@@ -1,51 +1,54 @@
 [
-    {"start_date": "2014-01-01", "end_date": "2014-01-05", "language": "fr", "year": 1982, "pages": 277, "title": "La tempête", "author": "René Barjavel"}
-    ,{"start_date": "2014-01-06", "end_date": "2014-01-10", "language": "fr", "year": 2013, "pages": 426, "title": "Les micro humains", "author": "Bernard Werber"}
-    ,{"start_date": "2014-01-11", "end_date": "2014-01-20", "language": "en", "year": 2013, "pages": 491, "title": "The Circle", "author": "Dave Eggers"}
-    ,{"start_date": "2014-01-21", "end_date": "2014-01-31", "language": "fr", "year": 1943, "pages": 97, "title": "Le petit prince", "author": "Antoine de Saint-Exupéry"}
-    ,{"start_date": "2014-02-01", "end_date": "2014-02-10", "language": "fr", "year": 1957, "pages": 183, "title": "L'étranger", "author": "Albert Camus"}
-    ,{"start_date": "2014-02-11", "end_date": "2014-03-08", "language": "en", "year": 1949, "pages": 245, "title": "1984", "author": "Georges Orwell"}
-    ,{"start_date": "2014-03-09", "end_date": "2014-03-10", "language": "fr", "year": 1958, "pages": 243, "title": "Le lion", "author": "Joseph Kessel"}
-    ,{"start_date": "2014-03-11", "end_date": "2014-04-02", "language": "fr", "year": 1943, "pages": 244, "title": "Le Voyageur imprudent", "author": "René Barjavel"}
-    ,{"start_date": "2014-04-03", "end_date": "2014-04-09", "language": "en", "year": 1995, "pages": 263, "title": "Ishmael", "author": "Daniel Quinn"}
-    ,{"start_date": "2014-04-10", "end_date": "2014-05-12", "language": "en", "year": 1989, "pages": 1076, "title": "The Pillars of the Earth", "author": "Ken Follett"}
-    ,{"start_date": "2014-05-13", "end_date": "2014-05-26", "language": "fr", "year": 1952, "pages": 370, "title": "La mort est mon métier", "author": "Robert Merle"}
-    ,{"start_date": "2014-05-27", "end_date": "2014-06-11", "language": "en", "year": 2007, "pages": 232, "title": "Deep Economy", "author": "Bill McKibben"}
-    ,{"start_date": "2014-06-12", "end_date": "2014-06-22", "language": "fr", "year": 1984, "pages": 470, "title": "L'Enchanteur", "author": "Réné Barjavel"}
-    ,{"start_date": "2014-06-23", "end_date": "2014-07-05", "language": "fr", "year": 2002, "pages": 670, "title": "Les Derniers Hommes", "author": "Pierre Bordage"}
-    ,{"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130, "title": "The Island of Doctor Moreau", "author": "H. G. Wells"}
-    ,{"start_date": "2014-07-08", "end_date": "2014-08-07", "language": "en", "year": 1921, "pages": 226, "title": "We", "author": "Yevgeny Zamyatin"}
-    ,{"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288, "title": "Ravage", "author": "Réné Barjavel"}
-    ,{"start_date": "2014-09-06", "end_date": "2014-11-06", "language": "en", "year": 1961, "pages": 412, "title": "Stranger in a Strange Land", "author": "Robert A. Heinlein"}
-    ,{"start_date": "2014-11-07", "end_date": "2014-11-08", "language": "fr", "year": 2005, "pages": 296, "title": "Hitler chef de guerre", "author": "Philippe Masson"}
-    ,{"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74, "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt"}
-    ,{"start_date": "2014-11-11", "end_date": "2014-11-12", "language": "fr", "year": 1997, "pages": 84, "title": "Milarepa", "author": "Eric-Emmanuel Schmitt"}
-    ,{"start_date": "2014-11-13", "end_date": "2014-12-22", "language": "en", "year": 1997, "pages": 448, "title": "Contact", "author": "Carl Sagan"}
-    ,{"start_date": "2014-12-23", "end_date": "2014-12-26", "language": "en", "year": 1968, "pages": 256, "title": "Do Androids Dream of Electric Sheep? ", "author": "Philip K. Dick"}
-    ,{"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512, "title": "Au Bonheur des Dames", "author": "Emile Zola", "rating": 3.5}
-    ,{"start_date": "2015-01-17", "end_date": "2015-01-25", "language": "fr", "year": 2014, "pages": 586, "title": "La voix de la terre", "author": "Bernard Werber", "rating": 3.5}
-    ,{"start_date": "2015-01-26", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279, "title": "La peste", "author": "Albert Camus", "rating": 4.0}
-    ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett", "rating": 2.0}
-    ,{"start_date": "2015-02-06", "end_date": "2015-03-11", "language": "en", "year": 1968, "pages": 650, "title": "Stand on Zanzibar", "author": "John Brunner", "rating": 2.0}
-    ,{"start_date": "2015-03-12", "end_date": "2015-03-26", "language": "fr", "year": 1848, "pages": 314, "title": "La Dame aux camélias", "author": "Alexandre Dumas fils", "rating": 4.0}
-    ,{"start_date": "2015-03-27", "end_date": "2015-04-02", "language": "en", "year": 1895, "pages": 80, "title": "The time machine", "author": "H.G. Wells", "rating": 3.5}
-    ,{"start_date": "2015-04-03", "end_date": "2015-04-24", "language": "fr", "year": 1947, "pages": 350, "title": "Le journal d'Anne Frank", "author": "Anne Frank", "rating": 4.0}
-    ,{"start_date": "2015-04-25", "end_date": "2015-05-05", "language": "fr", "year": 2013, "pages": 384, "title": "La cuisinière d'Himmler", "author": "Franz-Olivier Giesbert", "rating": 4.0}
-    ,{"start_date": "2015-05-06", "end_date": "2015-05-11", "language": "fr", "year": 2010, "pages": 304, "title": "Une année chez les Français", "author": "Fouad Laroui", "rating": 4.0}
-    ,{"start_date": "2015-05-12", "end_date": "2015-06-30", "language": "fr", "year": 1991, "pages": 620, "title": "Le monde de Sophie", "author": "Jostein Gaarder", "rating": 3.5}
-    ,{"start_date": "2015-06-27", "end_date": "2015-06-27", "language": "fr", "year": 1953, "pages": 57, "title": "L'homme qui plantait des arbres", "author": "Jean Giono", "rating": 3.5}
-    ,{"start_date": "2015-07-01", "end_date": "2015-07-07", "language": "en", "year": 2012, "pages": 448, "title": "The Innocent", "author": "David Baldacci", "rating": 1.5, "isbn": "9781455519002"}
-    ,{"start_date": "2015-07-08", "end_date": "2015-07-22", "language": "en", "year": 1929, "pages": 355, "title": "A Farewell to Arms", "author": "Ernest Hemingway", "rating": 4, "isbn": "9780684102375"}
-    ,{"start_date": "2015-08-10", "end_date": "2015-08-12", "language": "en", "year": 2011, "pages": 369, "title": "The Martian", "author": "Andy Weir", "rating": 4, "isbn": "9780804139021"}
-    ,{"start_date": "2015-08-23", "end_date": "2015-08-29", "language": "fr", "year": 1931, "pages": 187, "title": "Vol de nuit", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360040"}
-    ,{"start_date": "2015-08-30", "end_date": "2015-09-05", "language": "fr", "year": 1957, "pages": 249, "title": "Hong-Kong et Macao", "author": "Joseph Kessel", "rating": 3.5, "isbn": "9782070440641"}
-    ,{"start_date": "2015-09-06", "end_date": "2015-09-07", "language": "fr", "year": 2008, "pages": 306, "title": "Montespan", "author": "Jean Teulé", "rating": 4.5, "isbn": "9782260017233"}
-    ,{"start_date": "2015-09-08", "end_date": "2015-09-17", "language": "en", "year": 2001, "pages": 512, "title": "Jackdaws", "author": "Ken Follett", "rating": 3.5, "isbn": "9780451207524"}
-    ,{"start_date": "2015-09-18", "end_date": "2015-11-08", "language": "fr", "year": 1993, "pages": 636, "title": "Les guerriers du silence", "author": "Pierre Bordage", "rating": 3, "isbn": "9782905158697"}
-    ,{"start_date": "2015-11-08", "end_date": "2015-11-10", "language": "fr", "year": 2013, "pages": 266, "title": "Fleur de tonnerre", "author": "Jean Teulé", "rating": 4, "isbn": "9782260020424"}
-    ,{"start_date": "2015-11-11", "end_date": "2015-11-19", "language": "fr", "year": 2014, "pages": 142, "title": "L'Étrange Affaire du pantalon de Dassoukine", "author": "Fouad Laroui", "rating": 3, "isbn": "9782266238816"}
-    ,{"start_date": "2015-11-20", "end_date": "2015-12-01", "language": "en", "year": 1960, "pages": 376, "title": "To Kill a Mockingbird", "author": "Harper Lee", "rating": 5, "isbn": "9780446310789"}
-    ,{"start_date": "2015-12-02", "end_date": "2015-12-23", "language": "fr", "year": 2004, "pages": 516, "title": "Suite française", "author": "Irène Némirovsky", "rating": 3.5, "isbn": "9782207256459"}
-    ,{"start_date": "2015-12-24", "end_date": "2015-12-27", "language": "fr", "year": 2008, "pages": 300, "title": "Ulysse from Bagdad", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782226188618"}
-    ,{"start_date": "2015-12-29", "end_date": "2015-12-29", "language": "fr", "year": 2014, "pages": 144, "title": "La Fête de l'Insignifiance", "author": "Milan Kundera", "rating": 4, "isbn": "9782070145645"}
+     {"start_date": "2014-01-01", "end_date": "2014-01-05", "language": "fr", "year": 1982, "pages": 277,   "title": "La tempête", "author": "René Barjavel"}
+    ,{"start_date": "2014-01-06", "end_date": "2014-01-10", "language": "fr", "year": 2013, "pages": 426,   "title": "Les micro humains", "author": "Bernard Werber"}
+    ,{"start_date": "2014-01-11", "end_date": "2014-01-20", "language": "en", "year": 2013, "pages": 491,   "title": "The Circle", "author": "Dave Eggers"}
+    ,{"start_date": "2014-01-21", "end_date": "2014-01-31", "language": "fr", "year": 1943, "pages": 97,    "title": "Le petit prince", "author": "Antoine de Saint-Exupéry"}
+    ,{"start_date": "2014-02-01", "end_date": "2014-02-10", "language": "fr", "year": 1957, "pages": 183,   "title": "L'étranger", "author": "Albert Camus"}
+    ,{"start_date": "2014-02-11", "end_date": "2014-03-08", "language": "en", "year": 1949, "pages": 245,   "title": "1984", "author": "Georges Orwell"}
+    ,{"start_date": "2014-03-09", "end_date": "2014-03-10", "language": "fr", "year": 1958, "pages": 243,   "title": "Le lion", "author": "Joseph Kessel"}
+    ,{"start_date": "2014-03-11", "end_date": "2014-04-02", "language": "fr", "year": 1943, "pages": 244,   "title": "Le Voyageur imprudent", "author": "René Barjavel"}
+    ,{"start_date": "2014-04-03", "end_date": "2014-04-09", "language": "en", "year": 1995, "pages": 263,   "title": "Ishmael", "author": "Daniel Quinn"}
+    ,{"start_date": "2014-04-10", "end_date": "2014-05-12", "language": "en", "year": 1989, "pages": 1076,  "title": "The Pillars of the Earth", "author": "Ken Follett"}
+    ,{"start_date": "2014-05-13", "end_date": "2014-05-26", "language": "fr", "year": 1952, "pages": 370,   "title": "La mort est mon métier", "author": "Robert Merle"}
+    ,{"start_date": "2014-05-27", "end_date": "2014-06-11", "language": "en", "year": 2007, "pages": 232,   "title": "Deep Economy", "author": "Bill McKibben"}
+    ,{"start_date": "2014-06-12", "end_date": "2014-06-22", "language": "fr", "year": 1984, "pages": 470,   "title": "L'Enchanteur", "author": "Réné Barjavel"}
+    ,{"start_date": "2014-06-23", "end_date": "2014-07-05", "language": "fr", "year": 2002, "pages": 670,   "title": "Les Derniers Hommes", "author": "Pierre Bordage"}
+    ,{"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130,   "title": "The Island of Doctor Moreau", "author": "H. G. Wells"}
+    ,{"start_date": "2014-07-08", "end_date": "2014-08-07", "language": "en", "year": 1921, "pages": 226,   "title": "We", "author": "Yevgeny Zamyatin"}
+    ,{"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288,   "title": "Ravage", "author": "Réné Barjavel"}
+    ,{"start_date": "2014-09-06", "end_date": "2014-11-06", "language": "en", "year": 1961, "pages": 412,   "title": "Stranger in a Strange Land", "author": "Robert A. Heinlein"}
+    ,{"start_date": "2014-11-07", "end_date": "2014-11-08", "language": "fr", "year": 2005, "pages": 296,   "title": "Hitler chef de guerre", "author": "Philippe Masson"}
+    ,{"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74,    "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt"}
+    ,{"start_date": "2014-11-11", "end_date": "2014-11-12", "language": "fr", "year": 1997, "pages": 84,    "title": "Milarepa", "author": "Eric-Emmanuel Schmitt"}
+    ,{"start_date": "2014-11-13", "end_date": "2014-12-22", "language": "en", "year": 1997, "pages": 448,   "title": "Contact", "author": "Carl Sagan"}
+    ,{"start_date": "2014-12-23", "end_date": "2014-12-26", "language": "en", "year": 1968, "pages": 256,   "title": "Do Androids Dream of Electric Sheep? ", "author": "Philip K. Dick"}
+    ,{"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512,   "title": "Au Bonheur des Dames", "author": "Emile Zola", "rating": 3.5}
+    ,{"start_date": "2015-01-17", "end_date": "2015-01-25", "language": "fr", "year": 2014, "pages": 586,   "title": "La voix de la terre", "author": "Bernard Werber", "rating": 3.5}
+    ,{"start_date": "2015-01-26", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279,   "title": "La peste", "author": "Albert Camus", "rating": 4.0}
+    ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468,   "title": "Whiteout", "author": "Ken Follett", "rating": 2.0}
+    ,{"start_date": "2015-02-06", "end_date": "2015-03-11", "language": "en", "year": 1968, "pages": 650,   "title": "Stand on Zanzibar", "author": "John Brunner", "rating": 2.0}
+    ,{"start_date": "2015-03-12", "end_date": "2015-03-26", "language": "fr", "year": 1848, "pages": 314,   "title": "La Dame aux camélias", "author": "Alexandre Dumas fils", "rating": 4.0}
+    ,{"start_date": "2015-03-27", "end_date": "2015-04-02", "language": "en", "year": 1895, "pages": 80,    "title": "The time machine", "author": "H.G. Wells", "rating": 3.5}
+    ,{"start_date": "2015-04-03", "end_date": "2015-04-24", "language": "fr", "year": 1947, "pages": 350,   "title": "Le journal d'Anne Frank", "author": "Anne Frank", "rating": 4.0}
+    ,{"start_date": "2015-04-25", "end_date": "2015-05-05", "language": "fr", "year": 2013, "pages": 384,   "title": "La cuisinière d'Himmler", "author": "Franz-Olivier Giesbert", "rating": 4.0}
+    ,{"start_date": "2015-05-06", "end_date": "2015-05-11", "language": "fr", "year": 2010, "pages": 304,   "title": "Une année chez les Français", "author": "Fouad Laroui", "rating": 4.0}
+    ,{"start_date": "2015-05-12", "end_date": "2015-06-30", "language": "fr", "year": 1991, "pages": 620,   "title": "Le monde de Sophie", "author": "Jostein Gaarder", "rating": 3.5}
+    ,{"start_date": "2015-06-27", "end_date": "2015-06-27", "language": "fr", "year": 1953, "pages": 57,    "title": "L'homme qui plantait des arbres", "author": "Jean Giono", "rating": 3.5}
+    ,{"start_date": "2015-07-01", "end_date": "2015-07-07", "language": "en", "year": 2012, "pages": 448,   "title": "The Innocent", "author": "David Baldacci", "rating": 1.5, "isbn": "9781455519002"}
+    ,{"start_date": "2015-07-08", "end_date": "2015-07-22", "language": "en", "year": 1929, "pages": 355,   "title": "A Farewell to Arms", "author": "Ernest Hemingway", "rating": 4, "isbn": "9780684102375"}
+    ,{"start_date": "2015-08-10", "end_date": "2015-08-12", "language": "en", "year": 2011, "pages": 369,   "title": "The Martian", "author": "Andy Weir", "rating": 4, "isbn": "9780804139021"}
+    ,{"start_date": "2015-08-23", "end_date": "2015-08-29", "language": "fr", "year": 1931, "pages": 187,   "title": "Vol de nuit", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360040"}
+    ,{"start_date": "2015-08-30", "end_date": "2015-09-05", "language": "fr", "year": 1957, "pages": 249,   "title": "Hong-Kong et Macao", "author": "Joseph Kessel", "rating": 3.5, "isbn": "9782070440641"}
+    ,{"start_date": "2015-09-06", "end_date": "2015-09-07", "language": "fr", "year": 2008, "pages": 306,   "title": "Montespan", "author": "Jean Teulé", "rating": 4.5, "isbn": "9782260017233"}
+    ,{"start_date": "2015-09-08", "end_date": "2015-09-17", "language": "en", "year": 2001, "pages": 512,   "title": "Jackdaws", "author": "Ken Follett", "rating": 3.5, "isbn": "9780451207524"}
+    ,{"start_date": "2015-09-18", "end_date": "2015-11-08", "language": "fr", "year": 1993, "pages": 636,   "title": "Les guerriers du silence", "author": "Pierre Bordage", "rating": 3, "isbn": "9782905158697"}
+    ,{"start_date": "2015-11-08", "end_date": "2015-11-10", "language": "fr", "year": 2013, "pages": 266,   "title": "Fleur de tonnerre", "author": "Jean Teulé", "rating": 4, "isbn": "9782260020424"}
+    ,{"start_date": "2015-11-11", "end_date": "2015-11-19", "language": "fr", "year": 2014, "pages": 142,   "title": "L'Étrange Affaire du pantalon de Dassoukine", "author": "Fouad Laroui", "rating": 3, "isbn": "9782266238816"}
+    ,{"start_date": "2015-11-20", "end_date": "2015-12-01", "language": "en", "year": 1960, "pages": 376,   "title": "To Kill a Mockingbird", "author": "Harper Lee", "rating": 5, "isbn": "9780446310789"}
+    ,{"start_date": "2015-12-02", "end_date": "2015-12-23", "language": "fr", "year": 2004, "pages": 516,   "title": "Suite française", "author": "Irène Némirovsky", "rating": 3.5, "isbn": "9782207256459"}
+    ,{"start_date": "2015-12-24", "end_date": "2015-12-27", "language": "fr", "year": 2008, "pages": 300,   "title": "Ulysse from Bagdad", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782226188618"}
+    ,{"start_date": "2015-12-29", "end_date": "2015-12-29", "language": "fr", "year": 2014, "pages": 144,   "title": "La Fête de l'Insignifiance", "author": "Milan Kundera", "rating": 4, "isbn": "9782070145645"}
+    ,{"start_date": "2016-01-01", "end_date": "2016-01-06", "language": "fr", "year": 1994, "pages": 201,   "title": "La secte des égoïstes", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782226070289"}
+    ,{"start_date": "2016-01-07", "end_date": "2016-01-07", "language": "fr", "year": 2014, "pages": 224,   "title": "Charlotte", "author": "David Foenkinos", "rating": 4, "isbn": "9782070145683"}
+    ,{"start_date": "2016-01-08", "end_date": "2016-01-10", "language": "en", "year": 1997, "pages": 208,   "title": "Close to the Machine: Technophilia and Its Discontents", "author": "Ellen Ullman", "rating": 4, "isbn": "9781250024589"}
 ]
