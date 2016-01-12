@@ -51,4 +51,5 @@
     ,{"start_date": "2016-01-01", "end_date": "2016-01-06", "language": "fr", "year": 1994, "pages": 201,   "title": "La secte des égoïstes", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782226070289"}
     ,{"start_date": "2016-01-07", "end_date": "2016-01-07", "language": "fr", "year": 2014, "pages": 224,   "title": "Charlotte", "author": "David Foenkinos", "rating": 4, "isbn": "9782070145683"}
     ,{"start_date": "2016-01-08", "end_date": "2016-01-10", "language": "en", "year": 1997, "pages": 208,   "title": "Close to the Machine: Technophilia and Its Discontents", "author": "Ellen Ullman", "rating": 4, "isbn": "9781250024589"}
+    ,{"start_date": "2016-01-11", "end_date": "2016-01-12", "language": "en", "year": 1997, "pages": 192,   "title": "Tuesdays with Morrie", "author": "Mitch Albom", "rating": 4.5, "isbn": "9780307275639"}
 ]
