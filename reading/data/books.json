@@ -54,4 +54,5 @@
     ,{"start_date": "2016-01-11", "end_date": "2016-01-12", "language": "en", "year": 1997, "pages": 192,   "title": "Tuesdays with Morrie", "author": "Mitch Albom", "rating": 4.5, "isbn": "9780307275639"}
     ,{"start_date": "2016-01-15", "end_date": "2016-01-21", "language": "en", "year": 2001, "pages": 374,   "title": "Ready Player One", "author": "Ernest Cline", "rating": 4, "isbn": "9780307887436"}
     ,{"start_date": "2016-01-22", "end_date": "2016-01-23", "language": "en", "year": 1951, "pages": 231,   "title": "The Stars, Like Dust", "author": "Isaac Asimov", "rating": 4.5, "isbn": "9780553293432"}
+    ,{"start_date": "2016-01-24", "end_date": "2016-01-26", "language": "en", "year": 1954, "pages": 187,   "title": "Lord of the Flies", "author": "William Golding", "rating": 3.5, "isbn": "9780140283334"}
 ]
