@@ -55,4 +55,6 @@
     ,{"start_date": "2016-01-15", "end_date": "2016-01-21", "language": "en", "year": 2001, "pages": 374,   "title": "Ready Player One", "author": "Ernest Cline", "rating": 4, "isbn": "9780307887436"}
     ,{"start_date": "2016-01-22", "end_date": "2016-01-23", "language": "en", "year": 1951, "pages": 231,   "title": "The Stars, Like Dust", "author": "Isaac Asimov", "rating": 4.5, "isbn": "9780553293432"}
     ,{"start_date": "2016-01-24", "end_date": "2016-01-26", "language": "en", "year": 1954, "pages": 187,   "title": "Lord of the Flies", "author": "William Golding", "rating": 3.5, "isbn": "9780140283334"}
+    ,{"start_date": "2016-01-27", "end_date": "2016-01-30", "language": "en", "year": 1961, "pages": 192,   "title": "Mother Night", "author": "Kurt Vonnegut", "rating": 4, "isbn": "9780385334143"}
+    ,{"start_date": "2016-02-01", "end_date": "2016-02-19", "language": "fr", "year": 1967, "pages": 455,   "title": "La Plaisanterie", "author": "Milan Kundera", "rating": 3.5, "isbn": "9782070366385"}
 ]
