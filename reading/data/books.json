@@ -57,4 +57,5 @@
     ,{"start_date": "2016-01-24", "end_date": "2016-01-26", "language": "en", "year": 1954, "pages": 187,   "title": "Lord of the Flies", "author": "William Golding", "rating": 3.5, "isbn": "9780140283334"}
     ,{"start_date": "2016-01-27", "end_date": "2016-01-30", "language": "en", "year": 1961, "pages": 192,   "title": "Mother Night", "author": "Kurt Vonnegut", "rating": 4, "isbn": "9780385334143"}
     ,{"start_date": "2016-02-01", "end_date": "2016-02-19", "language": "fr", "year": 1967, "pages": 455,   "title": "La Plaisanterie", "author": "Milan Kundera", "rating": 3.5, "isbn": "9782070366385"}
+    ,{"start_date": "2016-02-20", "end_date": "2016-02-28", "language": "en", "year": 1952, "pages": 205,   "title": "The Currents of Space", "author": "Isaac Asimov", "rating": 4, "isbn": "9780586008241"}
 ]
