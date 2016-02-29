@@ -111,6 +111,7 @@ rect {
 }
 
 line.dot,
+.lines.x line,
 .range line {
     stroke: #999;
 }
