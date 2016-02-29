@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
     min-height: 100%;
 }
@@ -44,8 +46,12 @@ h5 {
 }
 #content {
     width: 100%;
+    min-height: 100%;
+    height: auto !important;
     height: 100%;
     margin: 0 auto;
+    margin-bottom: -100px;
+    overflow: hidden;
 }
 #chart-book {
     text-align: center;
@@ -84,14 +90,14 @@ h4 .bar {
   color: #A3C96C;
 }
 footer {
-  margin: 60px 0 20px 0;
-  text-align: center;
+    height: 60px;
+    text-align: center;
 }
 footer a {
-  color: #A3C96C;
+    color: #A3C96C;
 }
 footer a:hover {
-  color: #A3C96C;
+    color: #A3C96C;
 }
 /** Chart **/
 .click-capture {
