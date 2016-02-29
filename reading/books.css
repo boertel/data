@@ -132,5 +132,5 @@ line.dot {
   shape-rendering: crispedges;
 }
 .range line {
-  stroke: #444444;
+  stroke: #999;
 }
