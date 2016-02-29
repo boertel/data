@@ -1,8 +1,10 @@
 body {
-  font-family: Georgia, Times, serif;
+  font-family: "Helvetica Neue", 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
   font-size: 16px;
   margin: 0;
-  background-color: #f0e1ca;
+  background-color: #F8F5F0;
 }
 h1,
 h2,
@@ -10,10 +12,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #444;
-  text-align: center;
-  font-family: "Vollkorn", Georgia, Times, serif;
-  font-weight: normal;
+    font-size: 13px;
+    color: #333;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 h1 {
   font-size: 68px;
@@ -31,13 +34,8 @@ h5 {
   font-size: 16px;
   margin-top: 8px;
 }
-span.amp {
-  font-family: Baskerville, Palatino, "Book Antiqua", serif !important;
-  font-weight: normal;
-  font-style: italic;
-}
 ::selection {
-  background-color: #d45849;
+  background-color: #A3C96C;
   color: #ffffff;
 }
 #content {
@@ -63,7 +61,7 @@ span.amp {
   min-height: 100px;
 }
 .bar {
-  color: #d45849;
+  color: #A3C96C;
   opacity: 0.75;
 }
 h4 .bar {
@@ -76,18 +74,17 @@ h4 .bar {
   font-size: 22px;
 }
 .subtle {
-  color: #996633;
+  color: #A3C96C;
 }
 footer {
   margin: 60px 0 20px 0;
   text-align: center;
-  color: #996633;
 }
 footer a {
-  color: #c0aa88;
+  color: #A3C96C;
 }
 footer a:hover {
-  color: #a28963;
+  color: #A3C96C;
 }
 /** Chart **/
 .click-capture {
@@ -103,7 +100,7 @@ rect {
   shape-rendering: crispedges;
 }
 .book {
-  fill: #d45849;
+  fill: #A3C96C;
   opacity: 0.75;
 }
 .book:hover {
@@ -112,22 +109,28 @@ rect {
 .hidden {
   display: none;
 }
+
+line.dot,
+.range line {
+    stroke: #999;
+}
+
+text {
+  font-size: 30px;
+  font-family: "Helvetica Neue", 'Arial Narrow', Arial, sans-serif;
+  fill: #999;
+}
+
 line.dot {
-  stroke: #996633;
   stroke-width: 2px;
   shape-rendering: crispedges;
   stroke-dasharray: 2, 2;
 }
 .lines.x line,
 .range line {
-  stroke: #996633;
   stroke-width: 2px;
   shape-rendering: crispedges;
 }
 .range line {
   stroke: #444444;
-}
-text {
-  font: 30px Georgia;
-  fill: #996633;
 }
