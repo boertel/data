@@ -59,12 +59,12 @@ function update (year, books) {
         .attr("y1", 0)
         .attr("y2", 0)
         .attr("x1", 0)
-        .attr("x2", width - padding.right + padding.left/2)
+        .attr("x2", width)
     yDots
         .append("text")
-        .attr("x", width - padding.right + padding.left)
-        .attr("y", 6)
-        .attr("text-anchor", "start")
+        .attr("x", width - 30)
+        .attr("y", function (d, i) { return i === 0 ? -10 : -5})
+        .attr("text-anchor", "end")
         .text(function (d, i) { return i == 0 ? "pages" : d; })
 
     /* Bars */
@@ -139,23 +139,23 @@ var year = 2016;
 
 var margin = {
         top: 20,
-        right: 10,
+        right: 0,
         bottom: 20,
-        left: 40
+        left: 0
     },
     padding = {
         top: 40,
-        right: 40,
+        right: 180,
         bottom: 70,
-        left: 60
+        left: 110
     };
 
-var width = 1000 - margin.left - margin.right,
-    height = 150 - margin.top - margin.bottom;
+var width = window.innerWidth >= 1200 ? window.innerWidth : 1200,
+    height = 200 - margin.top - margin.bottom;
 
 var svg = d3.select("#chart-book").append("svg")
     .attr("class","chart-book")
-    .attr("width", width + margin.left + margin.right + padding.left + padding.right)
+    .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom + padding.top + padding.bottom)
   .append("g")
     .attr("class", "main")
@@ -166,7 +166,7 @@ svg.append('rect')
     //.style('visibility', 'hidden')
     .attr('x', 0)
     .attr('y', 0)
-    .attr('width', width + margin.left + margin.right + padding.left + padding.right)
+    .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom + padding.top + padding.bottom);
 
 var x = d3.time.scale()
