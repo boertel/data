@@ -59,4 +59,5 @@
     ,{"start_date": "2016-02-01", "end_date": "2016-02-19", "language": "fr", "year": 1967, "pages": 455,   "title": "La Plaisanterie", "author": "Milan Kundera", "rating": 3.5, "isbn": "9782070366385"}
     ,{"start_date": "2016-02-20", "end_date": "2016-02-28", "language": "en", "year": 1952, "pages": 205,   "title": "The Currents of Space", "author": "Isaac Asimov", "rating": 4, "isbn": "9780586008241"}
     ,{"start_date": "2016-02-29", "end_date": "2016-03-05", "language": "fr", "year": 2011, "pages": 222,   "title": "Charly 9", "author": "Jean Teulé", "rating": 3, "isbn": "9782260018247"}
+    ,{"start_date": "2016-03-06", "end_date": "2016-03-13", "language": "en", "year": 1895, "pages": 114,   "title": "The Importance of Being Earnest", "author": "Oscar Wilde", "rating": 4, "isbn": "9781580495806"}
 ]
