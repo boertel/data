@@ -60,4 +60,6 @@
     ,{"start_date": "2016-02-20", "end_date": "2016-02-28", "language": "en", "year": 1952, "pages": 205,   "title": "The Currents of Space", "author": "Isaac Asimov", "rating": 4, "isbn": "9780586008241"}
     ,{"start_date": "2016-02-29", "end_date": "2016-03-05", "language": "fr", "year": 2011, "pages": 222,   "title": "Charly 9", "author": "Jean Teulé", "rating": 3, "isbn": "9782260018247"}
     ,{"start_date": "2016-03-06", "end_date": "2016-03-13", "language": "en", "year": 1895, "pages": 114,   "title": "The Importance of Being Earnest", "author": "Oscar Wilde", "rating": 4, "isbn": "9781580495806"}
+    ,{"start_date": "2016-03-14", "end_date": "2016-04-15", "language": "fr", "year": 1869, "pages": 668,   "title": "Education Sentimentale", "author": "Gustave Flaubert", "rating": 4, "isbn": "9782253010692"}
+    ,{"start_date": "2016-03-15", "end_date": "2016-04-15", "language": "fr", "year": 2015, "pages": 96,    "title": "Les Dix enfants que Madame Ming n'a jamais eus", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782253020400"}
 ]
