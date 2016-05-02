@@ -63,4 +63,5 @@
     ,{"start_date": "2016-03-14", "end_date": "2016-04-15", "language": "fr", "year": 1869, "pages": 668,   "title": "Education Sentimentale", "author": "Gustave Flaubert", "rating": 4, "isbn": "9782253010692"}
     ,{"start_date": "2016-04-15", "end_date": "2016-04-16", "language": "fr", "year": 2015, "pages": 96,    "title": "Les Dix enfants que Madame Ming n'a jamais eus", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782253020400"}
     ,{"start_date": "2016-04-17", "end_date": "2016-04-22", "language": "en", "year": 1951, "pages": 214,    "title": "The Catcher in the Rye", "author": "J.D. Salinger", "rating": 3.5, "isbn": "9780316769532"}
+    ,{"start_date": "2016-04-23", "end_date": "2016-05-01", "language": "en", "year": 1950, "pages": 223,    "title": "Pebble in the Sky", "author": "Isaac Asimov", "rating": 4.5, "isbn": "9788498890204"}
 ]
