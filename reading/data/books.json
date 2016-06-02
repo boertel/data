@@ -66,4 +66,5 @@
     ,{"start_date": "2016-04-23", "end_date": "2016-05-01", "language": "en", "year": 1950, "pages": 223,   "title": "Pebble in the Sky", "author": "Isaac Asimov", "rating": 4.5, "isbn": "9788498890204"}
     ,{"start_date": "2016-05-02", "end_date": "2016-05-07", "language": "fr", "year": 1947, "pages": 176,   "title": "L'Écume des Jours", "author": "Boris Vian", "rating": 3.5, "isbn": "9782253140870"}
     ,{"start_date": "2016-05-08", "end_date": "2016-05-21", "language": "en", "year": 1876, "pages": 216,   "title": "The Adventures of Tom Sawyer", "author": "Mark Twain", "rating": 3.0, "isbn": "9780553211285"}
+    ,{"start_date": "2016-05-22", "end_date": "2016-06-01", "language": "en", "year": 2015, "pages": 408,   "title": "The Girl on the Train", "author": "Paula Hawkins", "rating": 3.0, "isbn": "9781594633669"}
 ]
