@@ -67,4 +67,5 @@
     ,{"start_date": "2016-05-02", "end_date": "2016-05-07", "language": "fr", "year": 1947, "pages": 176,   "title": "L'Écume des Jours", "author": "Boris Vian", "rating": 3.5, "isbn": "9782253140870"}
     ,{"start_date": "2016-05-08", "end_date": "2016-05-21", "language": "en", "year": 1876, "pages": 216,   "title": "The Adventures of Tom Sawyer", "author": "Mark Twain", "rating": 3.0, "isbn": "9780553211285"}
     ,{"start_date": "2016-05-22", "end_date": "2016-06-01", "language": "en", "year": 2015, "pages": 408,   "title": "The Girl on the Train", "author": "Paula Hawkins", "rating": 3.0, "isbn": "9781594633669"}
+    ,{"start_date": "2016-06-02", "end_date": "2016-06-22", "language": "fr", "year": 1782, "pages": 380,   "title": "Les Liaisons dangereuses", "author": "Pierre Choderlos de Laclos", "rating": 3.0, "isbn": "9780140441161"}
 ]
