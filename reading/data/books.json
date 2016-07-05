@@ -68,4 +68,5 @@
     ,{"start_date": "2016-05-08", "end_date": "2016-05-21", "language": "en", "year": 1876, "pages": 216,   "title": "The Adventures of Tom Sawyer", "author": "Mark Twain", "rating": 3.0, "isbn": "9780553211285"}
     ,{"start_date": "2016-05-22", "end_date": "2016-06-01", "language": "en", "year": 2015, "pages": 408,   "title": "The Girl on the Train", "author": "Paula Hawkins", "rating": 3.0, "isbn": "9781594633669"}
     ,{"start_date": "2016-06-02", "end_date": "2016-06-22", "language": "fr", "year": 1782, "pages": 380,   "title": "Les Liaisons dangereuses", "author": "Pierre Choderlos de Laclos", "rating": 3.0, "isbn": "9780140441161"}
+    ,{"start_date": "2016-06-23", "end_date": "2016-07-05", "language": "fr", "year": 2014, "pages": 208,   "title": "Procès du grille-pain et autres objets qui nous tapent sur les nerfs", "author": "Charles Haquet, Bernard Lalanne", "rating": 2.5, "isbn": "9782715235533"}
 ]
