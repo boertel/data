@@ -74,4 +74,5 @@
     ,{"start_date": "2016-08-02", "end_date": "2016-08-04", "language": "en", "year": 2016, "pages": 225,   "title": "When Breath becomes Air", "author": "Paul Kalanithi", "rating": 5, "isbn": "9780812988406"}
     ,{"start_date": "2016-08-05", "end_date": "2016-08-21", "language": "fr", "year": 1972, "pages": 153,   "title": "La Chute", "author": "Albert Camus", "rating": 4, "isbn": "9782070360109"}
     ,{"start_date": "2016-08-22", "end_date": "2016-10-16", "language": "fr", "year": 1840, "pages": 368,   "title": "Les Borgias", "author": "Alexandre Dumas", "rating": 3, "isbn": "9782012184985"}
+    ,{"start_date": "2016-10-17", "end_date": "2016-10-22", "language": "en", "year": 1950, "pages": 224,   "title": "I, Robot", "author": "Isaac Asimov", "rating": 5, "isbn": "9780553294385"}
 ]
