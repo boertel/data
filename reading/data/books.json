@@ -76,4 +76,6 @@
     ,{"start_date": "2016-08-22", "end_date": "2016-10-16", "language": "fr", "year": 1840, "pages": 368,   "title": "Les Borgias", "author": "Alexandre Dumas", "rating": 3, "isbn": "9782012184985"}
     ,{"start_date": "2016-10-17", "end_date": "2016-10-22", "language": "en", "year": 1950, "pages": 224,   "title": "I, Robot", "author": "Isaac Asimov", "rating": 5, "isbn": "9780553294385"}
     ,{"start_date": "2016-10-23", "end_date": "2016-11-27", "language": "en", "year": 1961, "pages": 452,   "title": "Catch-22", "author": "Joseph Heller", "rating": 3, "isbn": "9780684833395"}
+    ,{"start_date": "2016-11-27", "end_date": "2016-11-27", "language": "fr", "year": 2016, "pages": 162,   "title": "L'élixir d'amour", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782253045427"}
+    ,{"start_date": "2016-11-27", "end_date": "2016-11-27", "language": "en", "year": 2005, "pages": 92,    "title": "Tales of Adam", "author": "Daniel Quinn", "rating": 4, "isbn": "9781586420741"}
 ]
