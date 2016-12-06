@@ -277,14 +277,19 @@ Pages.prototype.mouseover = function (d) {
     this.text.attr("y", yValue);
     this.text.text(d.pages)
 
+    var end_date = new Date(d.end_date.getTime());
+    if (d.end_date.getTime() === d.start_date.getTime()) {
+        end_date.setDate(end_date.getDate() + 1);
+    }
+
     this.start_date.attr("transform", "translate(" + x(d.start_date) + ", 0)")
-    this.end_date.attr("transform", "translate(" + x(d.end_date) + ", 0)")
+    this.end_date.attr("transform", "translate(" + x(end_date) + ", 0)")
     this.start_dateText
         .attr("x", x(d.start_date) - 5)
         .text(d3.time.format("%b. %d")(d.start_date))
 
     this.end_dateText
-        .attr("x", x(d.end_date) + 5)
+        .attr("x", x(end_date) + 5)
         .text(d3.time.format("%b. %d")(d.end_date))
 
     d3.selectAll(".d3-data").each(showData(d));
