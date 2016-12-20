@@ -79,4 +79,5 @@
     ,{"start_date": "2016-11-27", "end_date": "2016-11-27", "language": "fr", "year": 2016, "pages": 162,   "title": "L'élixir d'amour", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782253045427"}
     ,{"start_date": "2016-11-27", "end_date": "2016-11-27", "language": "en", "year": 2005, "pages": 92,    "title": "Tales of Adam", "author": "Daniel Quinn", "rating": 4, "isbn": "9781586420741"}
     ,{"start_date": "2016-11-28", "end_date": "2016-12-04", "language": "en", "year": 1954, "pages": 270,   "title": "The Caves of Steel", "author": "Isaac Asimov", "rating": 4, "isbn": "9780553293400"}
+    ,{"start_date": "2016-12-05", "end_date": "2016-12-19", "language": "en", "year": 1981, "pages": 450,   "title": "Foundation's Edge", "author": "Isaac Asimov", "rating": 5, "isbn": "9780553293389"}
 ]
