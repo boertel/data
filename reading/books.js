@@ -133,7 +133,7 @@ function update (year, books) {
 
 var data, pages;
 
-var year = 2016;
+var year = 2017;
 
 
 
