@@ -83,4 +83,5 @@
     ,{"start_date": "2016-12-20", "end_date": "2017-01-16", "language": "fr", "year": 1967, "pages": 586,   "title": "Les Cavaliers", "author": "Joseph Kessel", "rating": 3.5, "isbn": "9782070373734"}
     ,{"start_date": "2017-01-17", "end_date": "2017-01-23", "language": "fr", "year": 1991, "pages": 315,   "title": "Hitler. Essai sur le charisme en politique", "author": "Ian Kershaw", "rating": 4, "isbn": "9782070419081"}
     ,{"start_date": "2017-01-24", "end_date": "2017-02-04", "language": "fr", "year": 1885, "pages": 567,   "title": "Germinal", "author": "Emile Zola", "rating": 4, "isbn": "9782253004226"}
+    ,{"start_date": "2017-02-05", "end_date": "2017-02-14", "language": "en", "year": 1986, "pages": 499,   "title": "Foundation and Earth", "author": "Isaac Asimov", "rating": 4, "isbn": "9780553587579"}
 ]
