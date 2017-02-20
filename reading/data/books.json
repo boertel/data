@@ -84,5 +84,5 @@
     ,{"start_date": "2017-01-17", "end_date": "2017-01-23", "language": "fr", "year": 1991, "pages": 315,   "title": "Hitler. Essai sur le charisme en politique", "author": "Ian Kershaw", "rating": 4, "isbn": "9782070419081"}
     ,{"start_date": "2017-01-24", "end_date": "2017-02-04", "language": "fr", "year": 1885, "pages": 567,   "title": "Germinal", "author": "Emile Zola", "rating": 4, "isbn": "9782253004226"}
     ,{"start_date": "2017-02-05", "end_date": "2017-02-14", "language": "en", "year": 1986, "pages": 499,   "title": "Foundation and Earth", "author": "Isaac Asimov", "rating": 4, "isbn": "9780553587579"}
-    ,{"start_date": "2017-02-15", "end_date": "2017-02-20", "language": "en", "year": 1952, "pages": 214,   "title": "Childhood's End", "author": "Arthur C. Clarke", "rating": 4, "isbn": "9780345347954"}
+    ,{"start_date": "2017-02-15", "end_date": "2017-02-19", "language": "en", "year": 1952, "pages": 214,   "title": "Childhood's End", "author": "Arthur C. Clarke", "rating": 4, "isbn": "9780345347954"}
 ]
