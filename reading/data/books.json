@@ -86,4 +86,5 @@
     ,{"start_date": "2017-02-05", "end_date": "2017-02-14", "language": "en", "year": 1986, "pages": 499,   "title": "Foundation and Earth", "author": "Isaac Asimov", "rating": 4, "isbn": "9780553587579"}
     ,{"start_date": "2017-02-15", "end_date": "2017-02-19", "language": "en", "year": 1952, "pages": 214,   "title": "Childhood's End", "author": "Arthur C. Clarke", "rating": 4, "isbn": "9780345347954"}
     ,{"start_date": "2017-02-20", "end_date": "2017-02-27", "language": "en", "year": 1983, "pages": 277,   "title": "The Color of Magic", "author": "Terry Pratchett", "rating": 3, "isbn": "9780062225672"}
+    ,{"start_date": "2017-02-28", "end_date": "2017-03-09", "language": "en", "year": 1975, "pages": 181,   "title": "Curtain", "author": "Agatha Christie", "rating": 4, "isbn": "9780002316196"}
 ]
