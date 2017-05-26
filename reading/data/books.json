@@ -90,4 +90,5 @@
     ,{"start_date": "2017-03-10", "end_date": "2017-03-28", "language": "en", "year": 2001, "pages": 750,   "title": "American Gods", "author": "Neil Gaiman", "rating": 4, "isbn": "9780062472106"}
     ,{"start_date": "2017-03-29", "end_date": "2017-04-12", "language": "fr", "year": 1890, "pages": 435,   "title": "La Bête humaine", "author": "Emile Zola", "rating": 4, "isbn": "9782253005575"}
     ,{"start_date": "2017-04-13", "end_date": "2017-04-19", "language": "en", "year": 1818, "pages": 223,   "title": "Frankenstein", "author": "Mary Shelley", "rating": 3, "isbn": "9780451532244"}
+    ,{"start_date": "2017-04-20", "end_date": "2017-05-25", "language": "fr", "year": 1880, "pages": 475,   "title": "Nana", "author": "Emile Zola", "rating": 2, "isbn": "9782070369560"}
 ]
