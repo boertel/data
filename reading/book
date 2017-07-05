@@ -1,0 +1,46 @@
+#!/bin/bash
+
+FILE=$1
+OUTPUT=""
+
+function ask {
+    FIELD=$1
+    TYPE=$2
+    DEFAULT=$3
+
+    echo -n "$FIELD: "
+    read INPUT
+
+    if [[ -z "$INPUT" ]]; then
+        INPUT=$DEFAULT
+    fi
+    if [[ "$TYPE" != "int" ]]; then
+        INPUT="\"$INPUT\""
+    fi
+
+    OUTPUT="$OUTPUT\"$FIELD\": $INPUT, "
+}
+
+
+ask "start_date"
+ask "end_date"
+ask "language"
+ask "year" "int" $(date +%Y)
+ask "pages" "int" 0
+ask "title"
+ask "author"
+ask "rating" "int" 0
+ask "isbn"
+
+OUTPUT=",{$OUTPUT}"
+echo $OUTPUT
+
+echo "ok? [Y/n]"
+read CONFIRM
+
+if [[ $CONFIRM =~ ^[Nn]$ ]]; then
+    exit 1
+fi
+
+sed -i '' $'/\]/i \
+    '"$OUTPUT"$'\n' $FILE
