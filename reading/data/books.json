@@ -91,4 +91,5 @@
     ,{"start_date": "2017-03-29", "end_date": "2017-04-12", "language": "fr", "year": 1890, "pages": 435,   "title": "La Bête humaine", "author": "Emile Zola", "rating": 4, "isbn": "9782253005575"}
     ,{"start_date": "2017-04-13", "end_date": "2017-04-19", "language": "en", "year": 1818, "pages": 223,   "title": "Frankenstein", "author": "Mary Shelley", "rating": 3, "isbn": "9780451532244"}
     ,{"start_date": "2017-04-20", "end_date": "2017-05-25", "language": "fr", "year": 1880, "pages": 475,   "title": "Nana", "author": "Emile Zola", "rating": 2, "isbn": "9782070369560"}
+    ,{"start_date": "2017-05-26", "end_date": "2017-06-11", "language": "en", "year": 2011, "pages": 510,   "title": "Wool", "author": "Hugh Howey", "rating": 4, "isbn": "9781476733951Publisher"}
 ]
