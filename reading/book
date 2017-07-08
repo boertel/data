@@ -3,6 +3,8 @@
 FILE=$1
 OUTPUT=""
 
+COMMIT_MSG=""
+
 function ask {
     FIELD=$1
     TYPE=$2
@@ -16,6 +18,13 @@ function ask {
     fi
     if [[ "$TYPE" != "int" ]]; then
         INPUT="\"$INPUT\""
+    fi
+
+    if [[ "$FIELD" = "title" ]]; then
+        COMMIT_MSG="$INPUT"
+    fi
+    if [[ "$FIELD" = "author" ]]; then
+        COMMIT_MSG="$INPUT - $COMMIT_MSG"
     fi
 
     OUTPUT="$OUTPUT\"$FIELD\": $INPUT, "
@@ -44,3 +53,5 @@ fi
 
 sed -i '' $'/\]/i \
     '"$OUTPUT"$'\n' $FILE
+
+echo $COMMIT_MSG
