@@ -95,5 +95,5 @@
     ,{"start_date": "2017-06-16", "end_date": "2017-07-02", "language": "en", "year": 1957, "pages": 192,   "title": "Earth Is Room Enough", "author": "Isaac Asimov", "rating": 4, "isbn": "9780449241257"}
     ,{"start_date": "2017-06-12", "end_date": "2017-07-06", "language": "en", "year": 1954, "pages": 159, "title": "The Chemicals of Life", "author": "Isaac Asimov", "rating": 5, "isbn": "9780451613844"}
     ,{"start_date": "2017-07-03", "end_date": "2017-07-07", "language": "fr", "year": 1939, "pages": 182, "title": "Terre des hommes", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360215" }
-,{"start_date": "2017-07-08", "end_date": "2017-07-d", "language": "en", "year": 2005, "pages": 352, "title": "Old Man's War", "author": "John Scalzi", "rating": 4, "isbn": "9780765348272" }
+    ,{"start_date": "2017-07-08", "end_date": "2017-07-10", "language": "en", "year": 2005, "pages": 352, "title": "Old Man's War", "author": "John Scalzi", "rating": 4, "isbn": "9780765348272" }
 ]
