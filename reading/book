@@ -32,9 +32,9 @@ function ask {
 
 
 ask "start_date"
-ask "end_date"
+ask "end_date" "string" "$(date +%Y-%m-d)"
 ask "language"
-ask "year" "int" $(date +%Y)
+ask "year" "int" "$(date +%Y)"
 ask "pages" "int" 0
 ask "title"
 ask "author"
@@ -42,7 +42,8 @@ ask "rating" "int" 0
 ask "isbn"
 
 OUTPUT=",{$OUTPUT}"
-echo $OUTPUT
+OUTPUT="$(echo "$OUTPUT" | sed "s/, \}$/ \}/")"
+echo "$OUTPUT"
 
 echo "ok? [Y/n]"
 read CONFIRM
@@ -52,6 +53,7 @@ if [[ $CONFIRM =~ ^[Nn]$ ]]; then
 fi
 
 sed -i '' $'/\]/i \
-    '"$OUTPUT"$'\n' $FILE
+    '"$OUTPUT"$'\n' "$FILE"
 
-echo $COMMIT_MSG
+git add "$FILE"
+git commit -m "$(echo "$COMMIT_MSG" | tr -d '"')"
