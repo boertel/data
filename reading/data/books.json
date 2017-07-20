@@ -97,4 +97,5 @@
     ,{"start_date": "2017-07-03", "end_date": "2017-07-07", "language": "fr", "year": 1939, "pages": 182, "title": "Terre des hommes", "author": "Antoine de Saint-Exupéry", "rating": 4, "isbn": "9782070360215" }
     ,{"start_date": "2017-07-08", "end_date": "2017-07-10", "language": "en", "year": 2005, "pages": 352, "title": "Old Man's War", "author": "John Scalzi", "rating": 4, "isbn": "9780765348272" }
 ,{"start_date": "2017-07-11", "end_date": "2017-07-15", "language": "fr", "year": 2011, "pages": 476, "title": "La Femme au miroir", "author": "Eric-Emmanuel Schmitt", "rating": 4, "isbn": "9782253175681" }
+,{"start_date": "2017-07-16", "end_date": "2017-07-20", "language": "en", "year": 1973, "pages": 275, "title": "Rendezvous with Rama", "author": "Arthur C. Clarke", "rating": 4, "isbn": "948345241754175" }
 ]
