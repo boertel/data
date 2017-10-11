@@ -102,4 +102,5 @@
 ,{"start_date": "2017-07-31", "end_date": "2017-08-10", "language": "en", "year": 1985, "pages": 311, "title": "The Handmaid's Tale", "author": "Margaret Atwood", "rating": 4, "isbn": "9780385490818" }
 ,{"start_date": "2017-08-11", "end_date": "2017-09-06", "language": "fr", "year": 1990, "pages": 535, "title": "L'immortalité", "author": "Kundera", "rating": 3.5, "isbn": "9782070385881" }
 ,{"start_date": "2017-09-07", "end_date": "2017-10-05", "language": "en", "year": 1959, "pages": 310, "title": "Flowers for Algernon", "author": "Daniel Keyes", "rating": 4, "isbn": "9780156030083" }
+,{"start_date": "2017-10-09", "end_date": "2017-10-09", "language": "fr", "year": 2014, "pages": 168, "title": "Le Poison d'amour", "author": "Eric-Emmanuel Schmitt", "rating": 3, "isbn": "9782253045434" }
 ]
