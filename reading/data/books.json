@@ -110,5 +110,6 @@
 ,{"start_date": "2018-01-19", "end_date": "2018-03-11", "language": "en", "year": 1989, "pages": 386, "title": "Nemesis", "author": "Isaac Asimov", "rating": 4, "isbn": "9780553286281" }
 ,{"start_date": "2018-03-19", "end_date": "2018-03-26", "language": "en", "year": 2017, "pages": 305, "title": "Artemis", "author": "Andy Weir", "rating": 5, "isbn": "9780553448122" }
 ,{"start_date": "2018-05-01", "end_date": "2018-05-31", "language": "en", "year": 2017, "pages": 336, "title": "The Collapsing Empire", "author": "John Scalzi", "rating": 4, "isbn": "9780765388896" }
-,{"start_date": "2018-09-29", "end_date": "2018-10-31", "language": "en", "year": 2013, "pages": 431, "title": "Red Sparrow", "author": "Jason Matthews", "rating": 3, "isbn": "ISBN 9781476706122" }
+,{"start_date": "2018-09-29", "end_date": "2018-10-31", "language": "en", "year": 2013, "pages": 431, "title": "Red Sparrow", "author": "Jason Matthews", "rating": 3, "isbn": "9781476706122" }
+,{"start_date": "2018-11-02", "end_date": "2018-11-18", "language": "en", "year": 1956, "pages": 208, "title": "The Naked Sun", "author": "Isaac Asimov", "rating": 4, "isbn": "9780586010167" }
 ]
