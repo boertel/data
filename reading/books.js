@@ -133,7 +133,21 @@ function update (year, books) {
 
 var data, pages;
 
-var year = 2017;
+var qs = {
+  parse: function (search) {
+    search = search.substring(1, search.length)
+    var parts = search.split('&')
+    var obj = {}
+    parts.forEach(function (part) {
+      var keyValue = part.split('=')
+      obj[keyValue[0]] = keyValue[1]
+    })
+    return obj
+  }
+}
+
+var query = qs.parse(document.location.search)
+var year = query.year ? parseInt(query.year, 10) : (new Date()).getFullYear());
 
 
 
