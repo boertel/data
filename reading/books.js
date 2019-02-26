@@ -147,7 +147,7 @@ var qs = {
 }
 
 var query = qs.parse(document.location.search)
-var year = query.year ? parseInt(query.year, 10) : (new Date()).getFullYear());
+var year = query.year ? parseInt(query.year, 10) : (new Date()).getFullYear();
 
 
 
