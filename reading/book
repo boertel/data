@@ -16,6 +16,15 @@ function ask {
     if [[ -z "$INPUT" ]]; then
         INPUT=$DEFAULT
     fi
+
+    if [[ "$FIELD" = "sex" ]]; then
+        if [[ "$INPUT" = "m" ]]; then
+            INPUT="male"
+        elif [[ "$INPUT" = "f" ]]; then
+            INPUT="female"
+        fi
+    fi
+
     if [[ "$TYPE" != "int" ]]; then
         INPUT="\"$INPUT\""
     fi
@@ -38,6 +47,7 @@ ask "year" "int" "$(date +%Y)"
 ask "pages" "int" 0
 ask "title"
 ask "author"
+ask "sex"
 ask "rating" "int" 0
 ask "isbn"
 
@@ -45,15 +55,17 @@ OUTPUT=",{$OUTPUT}"
 OUTPUT="$(echo "$OUTPUT" | sed "s/, \}$/ \}/")"
 echo "$OUTPUT"
 
-echo "ok? [Y/n]"
-read CONFIRM
+if [[ -n "$FILE" ]]; then
+    echo "ok? [Y/n]"
+    read CONFIRM
 
-if [[ $CONFIRM =~ ^[Nn]$ ]]; then
-    exit 1
+    if [[ $CONFIRM =~ ^[Nn]$ ]]; then
+        exit 1
+    fi
+
+    sed -i '' $'/\]/i \
+        '"$OUTPUT"$'\n' "$FILE"
+
+    git add "$FILE"
+    git commit -m "$(echo "$COMMIT_MSG" | tr -d '"')"
 fi
-
-sed -i '' $'/\]/i \
-    '"$OUTPUT"$'\n' "$FILE"
-
-git add "$FILE"
-git commit -m "$(echo "$COMMIT_MSG" | tr -d '"')"
