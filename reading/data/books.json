@@ -120,4 +120,5 @@
 ,{"start_date": "2019-02-13", "end_date": "2019-02-17", "language": "en", "year": 2016, "pages": 257, "title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis", "author": "J.D. Vance", "rating": 5, "isbn": "9780062300546" , "sex": "male"}
 ,{"start_date": "2019-02-17", "end_date": "2019-02-26", "language": "fr", "year": 1678, "pages": 287, "title": "La Princesse de Cleves", "author": "Madame de La Fayette", "rating": 3, "isbn": "9782035882462" , "sex": "female"}
 ,{"start_date": "2019-02-26", "end_date": "2019-03-07", "language": "fr", "year": 1981, "pages": 320, "title": "Les mots", "author": "Jean-Paul Sartre", "rating": 3, "isbn": "9780423505603" }
+,{"start_date": "2019-03-08", "end_date": "2019-03-31", "language": "en", "year": 1994, "pages": 464, "title": "Forward the Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 4, "isbn": "9780553565072" }
 ]
