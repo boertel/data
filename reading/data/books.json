@@ -123,7 +123,7 @@
 ,{"start_date": "2019-03-08", "end_date": "2019-03-31", "language": "en", "year": 1994, "pages": 464, "title": "Forward the Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 4, "isbn": "9780553565072" }
 ,{"start_date": "2019-04-01", "end_date": "2019-04-07", "language": "fr", "year": 2006, "pages": 246, "title": "L'Attentat", "author": "Yasmina Khadra", "sex": "male", "rating": 4, "isbn": "9782266162692" }
 ,{"start_date": "2019-04-08", "end_date": "2019-04-12", "language": "en", "year": 2013, "pages": 327, "title": "I Am Malala: The Story of the Girl Who Stood Up for Education and Was Shot by the Taliban", "author": "Malala Yousafzai, Christina Lamb", "sex": "female", "rating": 5, "isbn": "9780316322409" }
-,{"start_date": "2019-04-01", "end_date": "2019-05-10", "language": "en", "year": 1979, "pages": 287, "title": "Kindred", "author": "Octavia E. Butler", "sex": "female", "rating": 4, "isbn": "9780807083697" }
+,{"start_date": "2019-04-18", "end_date": "2019-05-10", "language": "en", "year": 1979, "pages": 287, "title": "Kindred", "author": "Octavia E. Butler", "sex": "female", "rating": 4, "isbn": "9780807083697" }
 ,{"start_date": "2019-05-11", "end_date": "2019-05-23", "language": "en", "year": 1982, "pages": 295, "title": "Color Purple", "author": "Alice Walker", "sex": "female", "rating": 4, "isbn": "9780671727796" }
 ,{"start_date": "2019-05-24", "end_date": "2019-06-21", "language": "en", "year": 2013, "pages": 477, "title": "Americanah", "author": "Chimamanda Ngozi Adichie", "sex": "female", "rating": 5, "isbn": "" }
 ,{"start_date": "2019-07-02", "end_date": "2019-07-18", "language": "en", "year": 2017, "pages": 344, "title": "I Am Not Your Perfect Mexican Daughter", "author": "Erika L. Sánchez", "sex": "female", "rating": 3, "isbn": "9781524700485" }
@@ -135,4 +135,5 @@
 ,{"start_date": "2019-10-21", "end_date": "2019-11-10", "language": "en", "year": 2018, "pages": 426, "title": "Becoming", "author": "Michelle Obama", "sex": "female", "rating": 5, "isbn": "9781524763138" }
 ,{"start_date": "2019-11-11", "end_date": "2019-11-17", "language": "en", "year": 1969, "pages": 275, "title": "Slaughterhouse-Five", "author": "Kurt Vonnegut", "sex": "male", "rating": 4, "isbn": "9780385333849" }
 ,{"start_date": "2019-11-18", "end_date": "2019-12-02", "language": "en", "year": 2019, "pages": 339, "title": "Permanent Record", "author": "Edward Snowden", "sex": "male", "rating": 4, "isbn": "9781250237231" }
+,{"start_date": "2019-04-14", "end_date": "2019-04-16", "language": "en", "year": 1984, "pages": 132, "title": "The House on Mango Street", "author": "Sandra Cisneros", "sex": "female", "rating": 3, "isbn": "" }
 ]
