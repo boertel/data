@@ -134,4 +134,5 @@
 ,{"start_date": "2019-10-08", "end_date": "2019-10-20", "language": "en", "year": 1995, "pages": 453, "title": "Dreams from My Father: A Story of Race and Inheritance", "author": "Barack Obama", "sex": "male", "rating": 4, "isbn": "9781921351433" }
 ,{"start_date": "2019-10-21", "end_date": "2019-11-10", "language": "en", "year": 2018, "pages": 426, "title": "Becoming", "author": "Michelle Obama", "sex": "female", "rating": 5, "isbn": "9781524763138" }
 ,{"start_date": "2019-11-11", "end_date": "2019-11-17", "language": "en", "year": 1969, "pages": 275, "title": "Slaughterhouse-Five", "author": "Kurt Vonnegut", "sex": "male", "rating": 4, "isbn": "9780385333849" }
+,{"start_date": "2019-11-18", "end_date": "2019-12-02", "language": "en", "year": 2019, "pages": 339, "title": "Permanent Record", "author": "Edward Snowden", "sex": "male", "rating": 4, "isbn": "9781250237231" }
 ]
