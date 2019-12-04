@@ -127,4 +127,5 @@
 ,{"start_date": "2019-05-11", "end_date": "2019-05-23", "language": "en", "year": 1982, "pages": 295, "title": "Color Purple", "author": "Alice Walker", "sex": "female", "rating": 4, "isbn": "9780671727796" }
 ,{"start_date": "2019-05-24", "end_date": "2019-06-21", "language": "en", "year": 2013, "pages": 477, "title": "Americanah", "author": "Chimamanda Ngozi Adichie", "sex": "female", "rating": 5, "isbn": "" }
 ,{"start_date": "2019-07-02", "end_date": "2019-07-18", "language": "en", "year": 2017, "pages": 344, "title": "I Am Not Your Perfect Mexican Daughter", "author": "Erika L. Sánchez", "sex": "female", "rating": 3, "isbn": "9781524700485" }
+,{"start_date": "2019-07-20", "end_date": "2019-08-22", "language": "fr", "year": 1952, "pages": 188, "title": "Peau noire, masques blancs", "author": "Frantz Fanon", "sex": "male", "rating": 2, "isbn": "9782020006019" }
 ]
