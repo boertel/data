@@ -136,4 +136,5 @@
 ,{"start_date": "2019-11-11", "end_date": "2019-11-17", "language": "en", "year": 1969, "pages": 275, "title": "Slaughterhouse-Five", "author": "Kurt Vonnegut", "sex": "male", "rating": 4, "isbn": "9780385333849" }
 ,{"start_date": "2019-11-18", "end_date": "2019-12-02", "language": "en", "year": 2019, "pages": 339, "title": "Permanent Record", "author": "Edward Snowden", "sex": "male", "rating": 4, "isbn": "9781250237231" }
 ,{"start_date": "2019-04-14", "end_date": "2019-04-16", "language": "en", "year": 1984, "pages": 132, "title": "The House on Mango Street", "author": "Sandra Cisneros", "sex": "female", "rating": 3, "isbn": "" }
+,{"start_date": "2019-12-02", "end_date": "2019-12-05", "language": "en", "year": 1937, "pages": 103, "title": "Of Mice and Men", "author": "John Steinbeck", "sex": "male", "rating": 5, "isbn": "9780142000670" }
 ]
