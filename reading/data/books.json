@@ -139,4 +139,5 @@
 ,{"start_date": "2019-12-02", "end_date": "2019-12-05", "language": "en", "year": 1937, "pages": 103, "title": "Of Mice and Men", "author": "John Steinbeck", "sex": "male", "rating": 5, "isbn": "9780142000670" }
 ,{"start_date": "2019-12-15", "end_date": "2019-12-25", "language": "en", "year": 2016, "pages": 320, "title": "Homegoing", "author": "Yaa Gyasi", "sex": "female", "rating": 4, "isbn": "9781101947135" }
 ,{"start_date": "2019-12-26", "end_date": "2020-01-23", "language": "en", "year": 2017, "pages": 496, "title": "Pachinko", "author": "Min Jin Lee", "sex": "female", "rating": 5, "isbn": "9781455563937" }
+,{"start_date": "2020-01-24", "end_date": "2020-01-29", "language": "en", "year": 2016, "pages": 285, "title": "Born a Crime: Stories From a South African Childhood", "author": "Trevor Noah", "sex": "male", "rating": 5, "isbn": "9780385689229" }
 ]
