@@ -36,7 +36,9 @@ function ask {
         COMMIT_MSG="$INPUT - $COMMIT_MSG"
     fi
 
-    OUTPUT="$OUTPUT\"$FIELD\": $INPUT, "
+    if [[ -n "$INPUT" ]]; then
+        OUTPUT="$OUTPUT\"$FIELD\": $INPUT, "
+    fi
 }
 
 
@@ -50,6 +52,7 @@ ask "author"
 ask "sex"
 ask "rating" "int" 0
 ask "isbn"
+ask "country"
 
 OUTPUT=",{$OUTPUT}"
 OUTPUT="$(echo "$OUTPUT" | sed "s/, \}$/ \}/")"
