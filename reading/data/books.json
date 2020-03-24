@@ -138,4 +138,5 @@
 ,{"start_date": "2019-04-14", "end_date": "2019-04-16", "language": "en", "year": 1984, "pages": 132, "title": "The House on Mango Street", "author": "Sandra Cisneros", "sex": "female", "rating": 3, "isbn": "" }
 ,{"start_date": "2019-12-02", "end_date": "2019-12-05", "language": "en", "year": 1937, "pages": 103, "title": "Of Mice and Men", "author": "John Steinbeck", "sex": "male", "rating": 5, "isbn": "9780142000670" }
 ,{"start_date": "2019-12-15", "end_date": "2019-12-25", "language": "en", "year": 2016, "pages": 320, "title": "Homegoing", "author": "Yaa Gyasi", "sex": "female", "rating": 4, "isbn": "9781101947135" }
+,{"start_date": "2019-12-26", "end_date": "2020-01-23", "language": "en", "year": 2017, "pages": 496, "title": "Pachinko", "author": "Min Jin Lee", "sex": "female", "rating": 5, "isbn": "9781455563937" }
 ]
