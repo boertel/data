@@ -150,4 +150,5 @@
 ,{"start_date": "2020-06-03", "end_date": "2020-06-16", "language": "en", "year": 1945, "pages": 181, "title": "Cannery Row", "author": "John Steinbeck", "sex": "male", "rating": 4, "isbn": "9780142000687", "country": "USA" }
 ,{"start_date": "2020-06-17", "end_date": "2020-08-11", "language": "en", "year": 2011, "pages": 272, "title": "While Mortals Sleep: Unpublished Short Fiction", "author": "Kurt Vonnegut Jr.", "sex": "male", "rating": 4, "isbn": "9780385343732", "country": "USA" }
 ,{"start_date": "2020-08-12", "end_date": "2020-08-30", "language": "en", "year": 2015, "pages": 360, "title": "Blitzed: Drugs in Nazi Germany", "author": "Norman Ohler", "sex": "male", "rating": 4, "isbn": "9780241256992", "country": "Germany" }
+,{"start_date": "2020-08-31", "end_date": "2020-11-07", "language": "en", "year": 1996, "pages": 459, "title": "The Demon-Haunted World: Science as a Candle in the Dark", "author": "Carl Sagan", "sex": "male", "rating": 4, "isbn": "9780345409461", "country": "USA" }
 ]
