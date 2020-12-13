@@ -86,9 +86,7 @@ h4 .bar {
 #book-info h4.info em {
   font-size: 22px;
 }
-.subtle {
-  color: #A3C96C;
-}
+
 footer {
     height: 60px;
     text-align: center;
@@ -113,7 +111,6 @@ rect {
   shape-rendering: crispedges;
 }
 .book {
-  fill: #A3C96C;
   opacity: 0.75;
 }
 .book:hover {
