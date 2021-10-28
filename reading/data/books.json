@@ -152,5 +152,6 @@
 ,{"start_date": "2020-08-12", "end_date": "2020-08-30", "language": "en", "year": 2015, "pages": 360, "title": "Blitzed: Drugs in Nazi Germany", "author": "Norman Ohler", "sex": "male", "rating": 4, "isbn": "9780241256992", "country": "Germany" }
 ,{"start_date": "2020-08-31", "end_date": "2020-11-07", "language": "en", "year": 1996, "pages": 459, "title": "The Demon-Haunted World: Science as a Candle in the Dark", "author": "Carl Sagan", "sex": "male", "rating": 4, "isbn": "9780345409461", "country": "USA" }
 ,{"start_date": "2020-11-08", "end_date": "2020-12-06", "language": "en", "year": 1969, "pages": 337, "title": "Dune Messiah", "author": "Frank Herbert", "sex": "male", "rating": 4, "isbn": "9780593098233", "country": "" }
-        ,{"start_date": "2020-12-07", "end_date": "2021-01-21", "language": "en", "year": 2010, "pages": 434, "title": "Red Plenty", "author": "Francis Spufford", "sex": "male", "rating": 3, "isbn": "9780571225231", "country": "USA" }
+        ,{"start_date": "2020-12-07", "end_date": "2021-01-21", "language": "en", "year": 2010, "pages": 434, "title": "Red Plenty", "author": "Francis Spufford", "sex": "male", "rating": 3, "isbn": "9780571225231", "country": "Russia" }
+        ,{"start_date": "2021-01-22", "end_date": "2021-03-03", "language": "en", "year": 1939, "pages": 479, "title": "The Grapes of Wrath", "author": "John Steinbeck", "sex": "male", "rating": 4, "isbn": "9780670016907", "country": "USA" }
 ]
