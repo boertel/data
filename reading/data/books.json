@@ -161,4 +161,5 @@
         ,{"start_date": "2021-10-28", "end_date": "2021-12-28", "language": "en", "year": 2020, "pages": 318, "title": "The Last Emperox", "author": "John Scalzi", "sex": "male", "rating": 2, "isbn": "9780765389169", "country": "USA" }
         ,{"start_date": "2021-09-12", "end_date": "2021-10-11", "language": "en", "year": 1972, "pages": 288, "title": "The Gods Themselves", "author": "Isaac Asimov", "sex": "male", "rating": 4, "isbn": "9781857989342", "country": "US" }
         ,{"start_date": "2022-01-02", "end_date": "2022-01-29", "language": "en", "year": 1979, "pages": 707, "title": "Napoleon", "author": "Emil Ludwig", "sex": "male", "rating": 4, "isbn": "9780849540165", "country": "en" }
+        ,{"start_date": "2022-01-30", "end_date": "2022-02-10", "language": "en", "year": 2022, "pages": 302, "title": "The Glass Hotel", "author": "Emily St. John Mandel", "sex": "female", "rating": 4, "isbn": "9780525521143", "country": "ca" }
 ]
