@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/opt/homebrew/bin/bash
 
 FILE=$1
 OUTPUT=""
@@ -10,8 +10,11 @@ function ask {
     TYPE=$2
     DEFAULT=$3
 
-    echo -n "$FIELD: "
-    read INPUT
+    if [[ -z "$DEFAULT" ]]; then
+        DEFAULT=""
+    fi
+
+    read -e -p "$FIELD: " -i "$DEFAULT" INPUT
 
     if [[ -z "$INPUT" ]]; then
         INPUT=$DEFAULT
@@ -42,7 +45,7 @@ function ask {
 }
 
 
-ask "start_date"
+ask "start_date" "string" "$(date +%Y-%m-)"
 ask "end_date" "string" "$(date +%Y-%m-%d)"
 ask "language"
 ask "year" "int" "$(date +%Y)"
