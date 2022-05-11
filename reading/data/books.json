@@ -163,4 +163,5 @@
         ,{"start_date": "2022-01-02", "end_date": "2022-01-29", "language": "en", "year": 1979, "pages": 707, "title": "Napoleon", "author": "Emil Ludwig", "sex": "male", "rating": 4, "isbn": "9780849540165", "country": "en" }
         ,{"start_date": "2022-01-30", "end_date": "2022-02-10", "language": "en", "year": 2020, "pages": 302, "title": "The Glass Hotel", "author": "Emily St. John Mandel", "sex": "female", "rating": 4, "isbn": "9780525521143", "country": "ca" }
         ,{"start_date": "2022-03-02", "end_date": "2022-03-30", "language": "en", "year": 2021, "pages": 328, "title": "Party and the People", "author": "Bruce Dickson", "sex": "male", "rating": 4, "isbn": "9780691186641", "country": "China" }
+        ,{"start_date": "2022-02-10", "end_date": "2022-03-02", "language": "en", "year": 2005, "pages": 288, "title": "Never Let Me Go", "author": "Kazuo Ishiguro", "sex": "male", "rating": 4, "isbn": "9780571335787", "country": "England" }
 ]

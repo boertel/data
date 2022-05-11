@@ -1,0 +1,36 @@
+#!/opt/homebrew/bin/bash
+
+
+QUERY="$1"
+
+RESPONSE=$(http GET "http://openlibrary.org/search.json?q=$QUERY")
+
+FIELDS=("author:author_name[0]" "language:language[0]" "title:title" "year:first_publish_year" "pages:number_of_pages_median" "isbn:isbn" "place:place")
+
+INPUT="n"
+INDEX=$2
+
+while [[ "$INPUT" == "n" ]]; do
+    echo "Index = ${INDEX}"
+    JSON="{"
+    for FIELD in "${FIELDS[@]}"; do
+        KEY=$(echo "$FIELD" | cut -d ":" -f 1)
+        IN_RESPONSE=$(echo "$FIELD" | cut -d ":" -f 2)
+        VALUE=$(echo $RESPONSE | jq ".docs[$INDEX].$IN_RESPONSE")
+        if [[ "$KEY" == "isbn" ]]; then
+            ISBN=$(echo "$VALUE" | jq '.|map(select(test("^978")))[0]' 2> /dev/null)
+            if [[ $? -eq 0 ]]; then
+                VALUE=$ISBN
+            fi
+        fi
+        FIELD="\"$KEY\": $VALUE"
+        echo "$FIELD"
+        JSON="$JSON $FIELD,"
+    done
+
+    JSON="$JSON }"
+    echo $JSON
+
+    read -e -p "Action? [n]ext, [q]uit " INPUT
+    INDEX=$(echo "$INDEX + 1" | bc)
+done
