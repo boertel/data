@@ -23,10 +23,8 @@ function loadJSON(cb) {
     window.books = books;
     books = preformat(books);
 
-    const book = d3
-      .select("#books")
-      .selectAll("li")
-      .data([...books].reverse());
+    const list = [...books].reverse();
+    const book = d3.select("#books").selectAll("li").data(list);
 
     book
       .enter()
@@ -34,13 +32,21 @@ function loadJSON(cb) {
       .attr("class", "book")
       .on("mouseover", function (d) {
         var book = d3.select(this);
-        book.style("background-color", COLORS[d.end_date.getFullYear()]);
+        book.style("background-color", COLORS[d.end_date.getFullYear()](0.6));
         pages.mouseover(d);
       })
       .on("mouseout", function () {
         book.style("background-color", "transparent");
       })
-      .html((d) => {
+      .html((d, idx) => {
+        if (list[idx + 1]) {
+          if (
+            d.end_date.getFullYear() !== list[idx + 1].end_date.getFullYear()
+          ) {
+            console.log(d);
+          }
+        }
+
         return `<div class="title">${d.title}</div><div class="author">${
           d.author
         }</div><div class="end_date">${d3.time.format("%Y-%m-%d")(
