@@ -1,28 +1,28 @@
 [
- {"start_date": "2014-01-01", "end_date": "2014-01-05", "language": "fr", "year": 1982, "pages": 277, "title": "La tempête", "author": "René Barjavel", "sex": "male"}
-,{"start_date": "2014-01-06", "end_date": "2014-01-10", "language": "fr", "year": 2013, "pages": 426, "title": "Les micro humains", "author": "Bernard Werber", "sex": "male"}
-,{"start_date": "2014-01-11", "end_date": "2014-01-20", "language": "en", "year": 2013, "pages": 491, "title": "The Circle", "author": "Dave Eggers", "sex": "male"}
-,{"start_date": "2014-01-21", "end_date": "2014-01-31", "language": "fr", "year": 1943, "pages": 97,  "title": "Le petit prince", "author": "Antoine de Saint-Exupéry", "sex": "male"}
-,{"start_date": "2014-02-01", "end_date": "2014-02-10", "language": "fr", "year": 1957, "pages": 183, "title": "L'étranger", "author": "Albert Camus", "sex": "male"}
-,{"start_date": "2014-02-11", "end_date": "2014-03-08", "language": "en", "year": 1949, "pages": 245, "title": "1984", "author": "Georges Orwell", "sex": "male"}
-,{"start_date": "2014-03-09", "end_date": "2014-03-10", "language": "fr", "year": 1958, "pages": 243, "title": "Le lion", "author": "Joseph Kessel", "sex": "male"}
-,{"start_date": "2014-03-11", "end_date": "2014-04-02", "language": "fr", "year": 1943, "pages": 244, "title": "Le Voyageur imprudent", "author": "René Barjavel", "sex": "male"}
-,{"start_date": "2014-04-03", "end_date": "2014-04-09", "language": "en", "year": 1995, "pages": 263, "title": "Ishmael", "author": "Daniel Quinn", "sex": "male"}
-,{"start_date": "2014-04-10", "end_date": "2014-05-12", "language": "en", "year": 1989, "pages": 1076,"title": "The Pillars of the Earth", "author": "Ken Follett", "sex": "male"}
-,{"start_date": "2014-05-13", "end_date": "2014-05-26", "language": "fr", "year": 1952, "pages": 370, "title": "La mort est mon métier", "author": "Robert Merle", "sex": "male"}
-,{"start_date": "2014-05-27", "end_date": "2014-06-11", "language": "en", "year": 2007, "pages": 232, "title": "Deep Economy", "author": "Bill McKibben", "sex": "male"}
-,{"start_date": "2014-06-12", "end_date": "2014-06-22", "language": "fr", "year": 1984, "pages": 470, "title": "L'Enchanteur", "author": "Réné Barjavel", "sex": "male"}
-,{"start_date": "2014-06-23", "end_date": "2014-07-05", "language": "fr", "year": 2002, "pages": 670, "title": "Les Derniers Hommes", "author": "Pierre Bordage", "sex": "male"}
-,{"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130, "title": "The Island of Doctor Moreau", "author": "H. G. Wells", "sex": "male"}
-,{"start_date": "2014-07-08", "end_date": "2014-08-07", "language": "en", "year": 1921, "pages": 226, "title": "We", "author": "Yevgeny Zamyatin", "sex": "male"}
-,{"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288, "title": "Ravage", "author": "Réné Barjavel", "sex": "male"}
-,{"start_date": "2014-09-06", "end_date": "2014-11-06", "language": "en", "year": 1961, "pages": 412, "title": "Stranger in a Strange Land", "author": "Robert A. Heinlein", "sex": "male"}
-,{"start_date": "2014-11-07", "end_date": "2014-11-08", "language": "fr", "year": 2005, "pages": 296, "title": "Hitler chef de guerre", "author": "Philippe Masson", "sex": "male"}
-,{"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74,  "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt", "sex": "male"}
-,{"start_date": "2014-11-11", "end_date": "2014-11-12", "language": "fr", "year": 1997, "pages": 84,  "title": "Milarepa", "author": "Eric-Emmanuel Schmitt", "sex": "male"}
-,{"start_date": "2014-11-13", "end_date": "2014-12-22", "language": "en", "year": 1997, "pages": 448, "title": "Contact", "author": "Carl Sagan", "sex": "male"}
-,{"start_date": "2014-12-23", "end_date": "2014-12-26", "language": "en", "year": 1968, "pages": 256, "title": "Do Androids Dream of Electric Sheep? ", "author": "Philip K. Dick", "sex": "male"}
-,{"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512, "title": "Au Bonheur des Dames", "author": "Emile Zola", "rating": 3, "sex": "male"}
+ {"start_date": "2014-01-01", "end_date": "2014-01-05", "language": "fr", "year": 1982, "pages": 277, "title": "La tempête", "author": "René Barjavel", "rating": 4, "sex": "male"}
+,{"start_date": "2014-01-06", "end_date": "2014-01-10", "language": "fr", "year": 2013, "pages": 426, "title": "Les micro humains", "author": "Bernard Werber", "rating": 3, "sex": "male"}
+,{"start_date": "2014-01-11", "end_date": "2014-01-20", "language": "en", "year": 2013, "pages": 491, "title": "The Circle", "author": "Dave Eggers", "rating": 4, "sex": "male"}
+,{"start_date": "2014-01-21", "end_date": "2014-01-31", "language": "fr", "year": 1943, "pages": 97,  "title": "Le petit prince", "author": "Antoine de Saint-Exupéry", "rating": 4, "sex": "male"}
+,{"start_date": "2014-02-01", "end_date": "2014-02-10", "language": "fr", "year": 1957, "pages": 183, "title": "L'étranger", "author": "Albert Camus", "rating": 3, "sex": "male"}
+,{"start_date": "2014-02-11", "end_date": "2014-03-08", "language": "en", "year": 1949, "pages": 245, "title": "1984", "author": "Georges Orwell", "rating": 5, "sex": "male"}
+,{"start_date": "2014-03-09", "end_date": "2014-03-10", "language": "fr", "year": 1958, "pages": 243, "title": "Le lion", "author": "Joseph Kessel", "rating": 5, "sex": "male"}
+,{"start_date": "2014-03-11", "end_date": "2014-04-02", "language": "fr", "year": 1943, "pages": 244, "title": "Le Voyageur imprudent", "author": "René Barjavel", "rating": 4, "sex": "male"}
+,{"start_date": "2014-04-03", "end_date": "2014-04-09", "language": "en", "year": 1995, "pages": 263, "title": "Ishmael", "author": "Daniel Quinn", "rating": 4, "sex": "male"}
+,{"start_date": "2014-04-10", "end_date": "2014-05-12", "language": "en", "year": 1989, "pages": 1076,"title": "The Pillars of the Earth", "author": "Ken Follett", "rating": 5, "sex": "male"}
+,{"start_date": "2014-05-13", "end_date": "2014-05-26", "language": "fr", "year": 1952, "pages": 370, "title": "La mort est mon métier", "author": "Robert Merle", "rating": 4, "sex": "male"}
+,{"start_date": "2014-05-27", "end_date": "2014-06-11", "language": "en", "year": 2007, "pages": 232, "title": "Deep Economy", "author": "Bill McKibben", "rating": 2, "sex": "male"}
+,{"start_date": "2014-06-12", "end_date": "2014-06-22", "language": "fr", "year": 1984, "pages": 470, "title": "L'Enchanteur", "author": "Réné Barjavel", "rating": 4, "sex": "male"}
+,{"start_date": "2014-06-23", "end_date": "2014-07-05", "language": "fr", "year": 2002, "pages": 670, "title": "Les Derniers Hommes", "author": "Pierre Bordage", "rating": 3, "sex": "male"}
+,{"start_date": "2014-07-06", "end_date": "2014-07-07", "language": "en", "year": 1896, "pages": 130, "title": "The Island of Doctor Moreau", "author": "H. G. Wells", "rating": 3, "sex": "male"}
+,{"start_date": "2014-07-08", "end_date": "2014-08-07", "language": "en", "year": 1921, "pages": 226, "title": "We", "author": "Yevgeny Zamyatin", "rating": 3, "sex": "male"}
+,{"start_date": "2014-08-08", "end_date": "2014-09-05", "language": "fr", "year": 1943, "pages": 288, "title": "Ravage", "author": "Réné Barjavel", "rating": 3, "sex": "male"}
+,{"start_date": "2014-09-06", "end_date": "2014-11-06", "language": "en", "year": 1961, "pages": 412, "title": "Stranger in a Strange Land", "author": "Robert A. Heinlein", "rating": 3, "sex": "male"}
+,{"start_date": "2014-11-07", "end_date": "2014-11-08", "language": "fr", "year": 2005, "pages": 296, "title": "Hitler chef de guerre", "author": "Philippe Masson", "rating": 5, "sex": "male"}
+,{"start_date": "2014-11-09", "end_date": "2014-11-10", "language": "fr", "year": 2001, "pages": 74,  "title": "Monsieur Ibrahim et les fleurs du Coran", "author": "Eric-Emmanuel Schmitt", "rating": 3, "sex": "male"}
+,{"start_date": "2014-11-11", "end_date": "2014-11-12", "language": "fr", "year": 1997, "pages": 84,  "title": "Milarepa", "author": "Eric-Emmanuel Schmitt", "rating": 3, "sex": "male"}
+,{"start_date": "2014-11-13", "end_date": "2014-12-22", "language": "en", "year": 1997, "pages": 448, "title": "Contact", "author": "Carl Sagan", "rating": 3, "sex": "male"}
+,{"start_date": "2014-12-23", "end_date": "2014-12-26", "language": "en", "year": 1968, "pages": 256, "title": "Do Androids Dream of Electric Sheep? ", "author": "Philip K. Dick", "rating": 4, "sex": "male"}
+,{"start_date": "2015-01-07", "end_date": "2015-01-16", "language": "fr", "year": 1883, "pages": 512, "title": "Au Bonheur des Dames", "author": "Emile Zola", "rating": 5, "sex": "male"}
 ,{"start_date": "2015-01-17", "end_date": "2015-01-25", "language": "fr", "year": 2014, "pages": 586, "title": "La voix de la terre", "author": "Bernard Werber", "rating": 3, "sex": "male"}
 ,{"start_date": "2015-01-26", "end_date": "2015-01-29", "language": "fr", "year": 1947, "pages": 279, "title": "La peste", "author": "Albert Camus", "rating": 4, "sex": "male"}
 ,{"start_date": "2015-01-30", "end_date": "2015-02-05", "language": "en", "year": 2014, "pages": 468, "title": "Whiteout", "author": "Ken Follett", "rating": 2, "sex": "male"}
@@ -166,7 +166,7 @@
 ,{"start_date": "2022-02-10", "end_date": "2022-03-02", "language": "en", "year": 2005, "pages": 288, "title": "Never Let Me Go", "author": "Kazuo Ishiguro", "sex": "male", "rating": 4, "isbn": "9780571335787", "country": "England" }
 ,{"start_date": "2022-05-11", "end_date": "2022-05-25", "language": "en", "year": 2021, "pages": 272, "title": "Sea of Tranquility", "author": "Emily St. John Mandel", "sex": "female", "rating": 4, "isbn": "9780593552070", "country": "" }
 ,{"start_date": "2022-06-10", "end_date": "2022-06-30", "language": "en", "year": 1989, "pages": 463, "title": "The Worthing Saga", "author": "Orson Scott Card", "sex": "male", "rating": 5, "isbn": "9780812509274", "country": "" }
-        ,{"start_date": "2022-07-01", "end_date": "2022-07-22", "language": "en", "year": 2014, "pages": 326, "title": "Fluent forever", "author": "Gabriel Wyner", "sex": "male", "rating": 4, "isbn": "9781520065168", "country": "" }
-        ,{"start_date": "2022-07-23", "end_date": "2022-08-01", "language": "en", "year": 2015, "pages": 86, "title": "Seven Brief Lessons on Physics", "author": "Carlo Rovelli", "sex": "male", "rating": 4, "isbn": "9780399184413", "country": "" }
-        ,{"start_date": "2022-04-10", "end_date": "2022-04-28", "language": "en", "year": 1959, "pages": 200, "title": "Man's Search for Meaning", "author": "Viktor E. Frankl", "sex": "male", "rating": 5, "isbn": "9780807014295", "country": "Germany" }
+,{"start_date": "2022-07-01", "end_date": "2022-07-22", "language": "en", "year": 2014, "pages": 326, "title": "Fluent forever", "author": "Gabriel Wyner", "sex": "male", "rating": 4, "isbn": "9781520065168", "country": "" }
+,{"start_date": "2022-07-23", "end_date": "2022-08-01", "language": "en", "year": 2015, "pages": 86, "title": "Seven Brief Lessons on Physics", "author": "Carlo Rovelli", "sex": "male", "rating": 4, "isbn": "9780399184413", "country": "" }
+,{"start_date": "2022-04-10", "end_date": "2022-04-28", "language": "en", "year": 1959, "pages": 200, "title": "Man's Search for Meaning", "author": "Viktor E. Frankl", "sex": "male", "rating": 5, "isbn": "9780807014295", "country": "Germany" }
 ]

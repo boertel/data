@@ -67,7 +67,7 @@ h5 {
 }
 #books li {
   display: grid;
-  grid-template-columns: 1fr 0.75fr min-content 70px;
+  grid-template-columns: 1fr 0.75fr min-content 80px;
   grid-column-gap: 12px;
   padding: 5px;
   border-radius: 3px;

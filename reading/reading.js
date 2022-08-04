@@ -52,7 +52,7 @@ function loadJSON(cb) {
         }</div><div class="end_date">${d3.time.format("%Y-%m-%d")(
           d.end_date
         )}</div><div class="rating">${
-          d.rating ? Array(d.rating).join("★") : ""
+          d.rating ? Array(d.rating + 1).join("★") : "?"
         }</div>`;
       });
 
