@@ -32,7 +32,7 @@ function loadJSON(cb) {
       .attr("class", "book")
       .on("mouseover", function (d) {
         var book = d3.select(this);
-        book.style("background-color", COLORS[d.end_date.getFullYear()](0.6));
+        book.style("background-color", COLORS[d.start_date.getFullYear()](0.6));
         pages.mouseover(d);
       })
       .on("mouseout", function () {
