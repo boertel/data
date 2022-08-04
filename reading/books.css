@@ -1,16 +1,20 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    min-height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+:root {
+  --bg: #f8f5f0;
 }
 body {
-  font-family: "Helvetica Neue", 'Arial Narrow', Arial, sans-serif;
-  font-weight: 300;
+  font-family: -apple-system, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   margin: 0;
-  background-color: #F8F5F0;
+  background-color: var(--bg);
 }
 h1,
 h2,
@@ -18,11 +22,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 13px;
-    color: #333;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
+  font-size: 13px;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
 }
 h1 {
   font-size: 68px;
@@ -41,27 +44,55 @@ h5 {
   margin-top: 8px;
 }
 ::selection {
-  background-color: #A3C96C;
+  background-color: #a3c96c;
   color: #ffffff;
 }
-#content {
-    width: 100%;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto;
-    margin-bottom: -100px;
-    overflow: hidden;
-}
+
 #chart-book {
-    text-align: center;
-    height: 270px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: var(--bg);
+  z-index: 1;
+  font-weight: 300;
 }
+#books,
 #chart-numbers {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
 }
+
+#books {
+  font-size: 16px;
+  margin-top: 62px;
+}
+#books li {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr min-content 70px;
+  grid-column-gap: 12px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+#books .title {
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  overflow: hidden;
+}
+#books .author {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  overflow: hidden;
+}
+#books .end_date {
+  font-variant: tabular-nums;
+}
+
 #chart-numbers > div {
   float: left;
   width: 33%;
@@ -74,7 +105,7 @@ h5 {
   min-height: 100px;
 }
 .bar {
-  color: #A3C96C;
+  color: #a3c96c;
   opacity: 0.75;
 }
 h4 .bar {
@@ -88,14 +119,14 @@ h4 .bar {
 }
 
 footer {
-    height: 60px;
-    text-align: center;
+  margin: 40px 0;
+  text-align: center;
 }
 footer a {
-    color: #A3C96C;
+  color: #a3c96c;
 }
 footer a:hover {
-    color: #A3C96C;
+  color: #a3c96c;
 }
 /** Chart **/
 .click-capture {
@@ -123,12 +154,12 @@ rect {
 line.dot,
 .lines.x line,
 .range line {
-    stroke: #999;
+  stroke: #999;
 }
 
 text {
   font-size: 30px;
-  font-family: "Helvetica Neue", 'Arial Narrow', Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial Narrow", Arial, sans-serif;
   fill: #999;
 }
 
