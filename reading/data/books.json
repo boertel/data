@@ -165,5 +165,6 @@
 ,{"start_date": "2022-03-02", "end_date": "2022-03-30", "language": "en", "year": 2021, "pages": 328, "title": "Party and the People", "author": "Bruce Dickson", "sex": "male", "rating": 4, "isbn": "9780691186641", "country": "China" }
 ,{"start_date": "2022-02-10", "end_date": "2022-03-02", "language": "en", "year": 2005, "pages": 288, "title": "Never Let Me Go", "author": "Kazuo Ishiguro", "sex": "male", "rating": 4, "isbn": "9780571335787", "country": "England" }
 ,{"start_date": "2022-05-11", "end_date": "2022-05-25", "language": "en", "year": 2021, "pages": 272, "title": "Sea of Tranquility", "author": "Emily St. John Mandel", "sex": "female", "rating": 4, "isbn": "9780593552070", "country": "" }
-        ,{"start_date": "2022-06-10", "end_date": "2022-06-30", "language": "en", "year": 1989, "pages": 463, "title": "9780812509274", "author": "Orson Scott Card", "sex": "male", "rating": 5, "isbn": "9780812509274", "country": "" }
+,{"start_date": "2022-06-10", "end_date": "2022-06-30", "language": "en", "year": 1989, "pages": 463, "title": "The Worthing Saga", "author": "Orson Scott Card", "sex": "male", "rating": 5, "isbn": "9780812509274", "country": "" }
+        ,{"start_date": "2022-07-01", "end_date": "2022-07-22", "language": "en", "year": 2014, "pages": 326, "title": "Fluent forever", "author": "Gabriel Wyner", "sex": "male", "rating": 4, "isbn": "9781520065168", "country": "" }
 ]
