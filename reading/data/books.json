@@ -169,4 +169,5 @@
 ,{"start_date": "2022-07-01", "end_date": "2022-07-22", "language": "en", "year": 2014, "pages": 326, "title": "Fluent forever", "author": "Gabriel Wyner", "sex": "male", "rating": 4, "isbn": "9781520065168", "country": "" }
 ,{"start_date": "2022-07-23", "end_date": "2022-08-01", "language": "en", "year": 2015, "pages": 86, "title": "Seven Brief Lessons on Physics", "author": "Carlo Rovelli", "sex": "male", "rating": 4, "isbn": "9780399184413", "country": "" }
 ,{"start_date": "2022-04-10", "end_date": "2022-04-28", "language": "en", "year": 1959, "pages": 200, "title": "Man's Search for Meaning", "author": "Viktor E. Frankl", "sex": "male", "rating": 5, "isbn": "9780807014295", "country": "Germany" }
+        ,{"start_date": "2022-10-02", "end_date": "2022-10-31", "language": "en", "year": 1951, "pages": 253, "title": "Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 5, "isbn": "9780007270422", "country": "Universe" }
 ]
