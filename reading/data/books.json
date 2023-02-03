@@ -172,4 +172,5 @@
         ,{"start_date": "2022-10-02", "end_date": "2022-10-31", "language": "en", "year": 1951, "pages": 253, "title": "Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 5, "isbn": "9780007270422", "country": "Universe" }
         ,{"start_date": "2022-11-01", "end_date": "2022-11-30", "language": "en", "year": 1952, "pages": 270, "title": "Foundation and Empire", "author": "Isaac Asimov", "sex": "male", "rating": 5, "isbn": "9780345309006", "country": "Universe" }
         ,{"start_date": "2022-12-01", "end_date": "2023-01-05", "language": "en", "year": 1953, "pages": 227, "title": "Second Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 5, "isbn": "9780345309014", "country": "Universe" }
+        ,{"start_date": "2023-01-06", "end_date": "2023-02-02", "language": "fr", "year": 1870, "pages": 392, "title": "Père Goriot", "author": "Honoré de Balzac", "sex": "male", "rating": 4, "isbn": "9782080708267", "country": "France" }
 ]
