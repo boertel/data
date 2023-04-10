@@ -43,7 +43,7 @@ function loadJSON(cb) {
           if (
             d.end_date.getFullYear() !== list[idx + 1].end_date.getFullYear()
           ) {
-            console.log(d);
+            //console.log(d);
           }
         }
 

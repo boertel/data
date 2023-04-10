@@ -55,13 +55,53 @@ function update(books, year) {
     .attr("x2", 0)
     .attr("y1", 0)
     .attr("y2", 6);
-  xDots
+
+  const years = xDots
     .append("text")
     .attr("x", 6)
     .attr("y", 30)
+    .style("cursor", "pointer")
     .text(function (d) {
       return d3.time.format("%Y")(d);
     });
+
+  years.on("click", function (year) {
+    years
+      .filter(function (d) {
+        return d.getFullYear() !== year.getFullYear();
+      })
+      .style("opacity", 0.2);
+    years
+      .filter(function (d) {
+        return d.getFullYear() === year.getFullYear();
+      })
+      .style("opacity", 1);
+
+    rects
+      .filter(function (d) {
+        return year.getFullYear() !== d.start_date.getFullYear();
+      })
+      .style("opacity", 0.2);
+    rects
+      .filter(function (d) {
+        return year.getFullYear() === d.start_date.getFullYear();
+      })
+      .style("opacity", 1);
+
+    const yearBooks = d3.selectAll("#books li").filter(function (d) {
+      return year.getFullYear() === d.start_date.getFullYear();
+    });
+
+    yearBooks[0][0].scrollIntoView();
+    yearBooks.style("opacity", 1);
+
+    d3.selectAll("#books li")
+      .filter(function (d) {
+        return year.getFullYear() !== d.start_date.getFullYear();
+      })
+      .style("opacity", 0.2);
+  });
+
   var yDots = yLines.selectAll(".line").data(y.ticks(3), function (d, i) {
     return d;
   });
@@ -155,23 +195,9 @@ function update(books, year) {
       const item = d3.selectAll("#books li")[0][books.length - idx - 1];
       previous = item;
       item.scrollIntoView();
-      var book = d3.select(this);
+      const book = d3.select(this);
       item.style.backgroundColor = COLORS[d.end_date.getFullYear()](0.6);
       book.attr("class", "book active");
-      d3.select("#placeholder").style("display", "none");
-      d3.select("#book-detail").html(
-        "" +
-          '<h3 class="title">' +
-          d.title +
-          "</h3>" +
-          '<h4 class="info">' +
-          "written by<em> " +
-          d.author +
-          " </em>in" +
-          "<em> " +
-          d.year +
-          " </em>.</h4>"
-      );
 
       pages.mouseover(d);
     })
@@ -245,7 +271,6 @@ var svg = d3
 svg
   .append("rect")
   .attr("class", "click-capture")
-  //.style('visibility', 'hidden')
   .attr("x", 0)
   .attr("y", 0)
   .attr("width", width + margin.left + margin.right)
@@ -415,8 +440,6 @@ Pages.prototype.mouseout = function () {
 // cancel/reset click behavior
 var clicked = false;
 function mouseout() {
-  d3.select("#placeholder").style("display", "block");
-  d3.select("#book-detail").html("");
   pages.mouseout();
 }
 

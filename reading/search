@@ -8,7 +8,7 @@ RESPONSE=$(http GET "http://openlibrary.org/search.json?q=$QUERY")
 FIELDS=("author:author_name[0]" "language:language[0]" "title:title" "year:first_publish_year" "pages:number_of_pages_median" "isbn:isbn" "place:place")
 
 INPUT="n"
-INDEX=$2
+INDEX=${2:-0}
 
 while [[ "$INPUT" == "n" ]]; do
     echo "Index = ${INDEX}"
@@ -24,7 +24,7 @@ while [[ "$INPUT" == "n" ]]; do
             fi
         fi
         FIELD="\"$KEY\": $VALUE"
-        echo "$FIELD"
+        #echo "$FIELD"
         JSON="$JSON $FIELD,"
     done
 

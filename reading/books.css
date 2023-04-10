@@ -60,7 +60,8 @@ h5 {
   font-weight: 300;
 }
 #books {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 320px;
   overflow: hidden;
@@ -132,7 +133,6 @@ footer a:hover {
   pointer-events: all;
   visibility: hidden;
 }
-.lines,
 .pages,
 .range {
   pointer-events: none;
