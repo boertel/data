@@ -174,4 +174,5 @@
         ,{"start_date": "2022-12-01", "end_date": "2023-01-05", "language": "en", "year": 1953, "pages": 227, "title": "Second Foundation", "author": "Isaac Asimov", "sex": "male", "rating": 5, "isbn": "9780345309014", "country": "Universe" }
         ,{"start_date": "2023-01-06", "end_date": "2023-02-02", "language": "fr", "year": 1870, "pages": 392, "title": "Père Goriot", "author": "Honoré de Balzac", "sex": "male", "rating": 4, "isbn": "9782080708267", "country": "France" }
         ,{"start_date": "2023-02-03", "end_date": "2023-02-26", "language": "en", "year": 1992, "pages": 274, "title": "Isaac Asimov's Guide to Earth and Space", "author": "Isaac Asimov", "sex": "male", "rating": 4, "isbn": "9780449220597", "country": "n/a" }
+        ,{"start_date": "2023-03-01", "end_date": "2023-04-08", "language": "en", "year": 2023, "pages": 400, "title": "A Master of Djinn", "author": "P. Djèlí Clark", "sex": "male", "rating": 4, "isbn": "9781250267689", "country": "Egypt" }
 ]
