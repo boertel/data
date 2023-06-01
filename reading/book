@@ -44,8 +44,9 @@ function ask {
     fi
 }
 
+START_DATE=$(cat $FILE | jq '.[-1].end_date' | tr -d '"')
 
-ask "start_date" "string" "$(date +%Y-%m-)"
+ask "start_date" "string" "$START_DATE"
 ask "end_date" "string" "$(date +%Y-%m-%d)"
 ask "language"
 ask "year" "int" "$(date +%Y)"
