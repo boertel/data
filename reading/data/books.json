@@ -176,4 +176,5 @@
 ,{"start_date": "2023-02-03", "end_date": "2023-02-26", "language": "en", "year": 1992, "pages": 274, "title": "Isaac Asimov's Guide to Earth and Space", "author": "Isaac Asimov", "sex": "male", "rating": 4, "isbn": "9780449220597", "country": "n/a" }
 ,{"start_date": "2023-03-01", "end_date": "2023-04-08", "language": "en", "year": 2023, "pages": 400, "title": "A Master of Djinn", "author": "P. Djèlí Clark", "sex": "male", "rating": 4, "isbn": "9781250267689", "country": "Egypt" }
 ,{"start_date": "2023-04-08", "end_date": "2023-05-02", "language": "en", "year": 1969, "pages": 304, "title": "The Left Hand of Darkness", "author": "Ursula K. Le Guin", "sex": "female", "rating": 5, "isbn": "9780441007318", "country": "n/a" }
+        ,{"start_date": "2023-05-03", "end_date": "2023-06-01", "language": "en", "year": 2019, "pages": 288, "title": "Memory Police", "author": "Yoko Ogawa", "sex": "female", "rating": 4, "isbn": "9781787301894", "country": "n/a" }
 ]
