@@ -45,14 +45,15 @@ function ask {
 }
 
 START_DATE=$(cat $FILE | jq '.[-1].end_date' | tr -d '"')
+START_DATE=$(date -j -v +1d -f "%Y-%m-%d" "$START_DATE" +%Y-%m-%d)
 
 ask "start_date" "string" "$START_DATE"
 ask "end_date" "string" "$(date +%Y-%m-%d)"
+ask "title"
+ask "author"
 ask "language"
 ask "year" "int" "$(date +%Y)"
 ask "pages" "int" 0
-ask "title"
-ask "author"
 ask "sex"
 ask "rating" "int" 0
 ask "isbn"
