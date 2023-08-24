@@ -136,7 +136,8 @@ function update(books, year) {
 
   /* Bars */
   var shelf = bars.selectAll("g.shelf").data(books, function (d) {
-    return d.title;
+    // needs a unique value
+    return d.start_date + d.isbn;
   });
 
   shelf.exit().remove();

@@ -178,4 +178,7 @@
 ,{"start_date": "2023-04-08", "end_date": "2023-05-02", "language": "en", "year": 1969, "pages": 304, "title": "The Left Hand of Darkness", "author": "Ursula K. Le Guin", "sex": "female", "rating": 5, "isbn": "9780441007318", "country": "n/a" }
 ,{"start_date": "2023-05-03", "end_date": "2023-06-01", "language": "en", "year": 2019, "pages": 288, "title": "Memory Police", "author": "Yoko Ogawa", "sex": "female", "rating": 4, "isbn": "9781787301894", "country": "n/a" }
 ,{"start_date": "2023-06-02", "end_date": "2023-07-08", "title": "Ancillary Justice", "author": "Ann Leckie", "language": "en", "year": 2013, "pages": 409, "sex": "female", "rating": 4, "isbn": "9780316246620", "country": "n/a" }
+
+,{"start_date": "2023-07-09", "end_date": "2023-07-21", "language": "en", "year": 2011, "pages": 510, "title": "Wool", "author": "Hugh Howey", "rating": 4, "isbn": "9781476733951", "sex": "male", "country": "USA"}
+,{"start_date": "2023-07-22", "end_date": "2023-08-18", "language": "en", "year": 2013, "pages": 576, "title": "Shift", "author": "Hugh Howey", "rating": 3, "isbn": "9780544839618", "sex": "male", "country": "USA"}
 ]
