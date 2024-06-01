@@ -1,15 +1,16 @@
 const COLORS = {
-  2014: (opacity = 1) => `rgba(172, 199, 180, ${opacity})`,
-  2015: (opacity = 1) => `rgba(51, 27, 63, ${opacity})`,
-  2016: (opacity = 1) => `rgba(245, 208, 66, ${opacity})`,
-  2017: (opacity = 1) => `rgba(206, 212, 106, ${opacity})`,
-  2018: (opacity = 1) => `rgba(7, 85, 59, ${opacity})`,
-  2019: (opacity = 1) => `rgba(106, 123, 162, ${opacity})`,
-  2020: (opacity = 1) => `rgba(44, 95, 45, ${opacity})`,
-  2021: (opacity = 1) => `rgba(173, 239, 209, ${opacity})`,
-  2022: (opacity = 1) => `rgba(221, 169, 75, ${opacity})`,
-  2023: (opacity = 1) => `rgba(164, 25, 61,  ${opacity})`,
-  2023: (opacity = 1) => `rgba(129, 88, 84, ${opacity})`,
+  2013: (opacity = 1) => `hsla(142, 23%, 73%, ${opacity}`,
+  2014: (opacity = 1) => `hsla(271, 40%, 27%, ${opacity}`,
+  2015: (opacity = 1) => `hsla(48, 91%, 61%, ${opacity}`,
+  2016: (opacity = 1) => `hsla(72, 49%, 63%, ${opacity}`,
+  2017: (opacity = 1) => `hsla(161, 85%, 25%, ${opacity}`,
+  2018: (opacity = 1) => `hsla(222, 34%, 53%, ${opacity}`,
+  2019: (opacity = 1) => `hsla(120, 36%, 45%, ${opacity}`,
+  2020: (opacity = 1) => `hsla(146, 65%, 81%, ${opacity}`,
+  2021: (opacity = 1) => `hsla(38, 74%, 58%, ${opacity}`,
+  2022: (opacity = 1) => `hsla(348, 73%, 46%, ${opacity}`,
+  2023: (opacity = 1) => `hsla(1, 21%, 42%, ${opacity}`,
+  2024: (opacity = 1) => `hsla(216, 28%, 49%, ${opacity}`,
 };
 
 function update(books, year) {
@@ -21,7 +22,7 @@ function update(books, year) {
     pages: {
       min: 0,
       max:
-        d3.max(books, function (d) {
+        d3.max(books, function(d) {
           return d.pages;
         }) + 1,
     },
@@ -32,7 +33,7 @@ function update(books, year) {
 
   /* Pages numbers and lines */
   // Months abbreviation and lines
-  var xDots = xLines.selectAll(".line").data(x.ticks(12), function (d) {
+  var xDots = xLines.selectAll(".line").data(x.ticks(12), function(d) {
     return d.getFullYear();
   });
 
@@ -41,14 +42,14 @@ function update(books, year) {
   xDots
     .enter()
     .append("g")
-    .attr("transform", function (d) {
+    .attr("transform", function(d) {
       return "translate(" + x(d) + ", 0)";
     })
     .attr("class", "line");
 
   xDots
     .append("line")
-    .attr("class", function (d, i) {
+    .attr("class", function(d, i) {
       return i == 0 ? " hidden" : "";
     })
     .attr("x1", 0)
@@ -61,34 +62,34 @@ function update(books, year) {
     .attr("x", 6)
     .attr("y", 30)
     .style("cursor", "pointer")
-    .text(function (d) {
+    .text(function(d) {
       return d3.time.format("%Y")(d);
     });
 
-  years.on("click", function (year) {
+  years.on("click", function(year) {
     years
-      .filter(function (d) {
+      .filter(function(d) {
         return d.getFullYear() !== year.getFullYear();
       })
       .style("opacity", 0.2);
     years
-      .filter(function (d) {
+      .filter(function(d) {
         return d.getFullYear() === year.getFullYear();
       })
       .style("opacity", 1);
 
     rects
-      .filter(function (d) {
+      .filter(function(d) {
         return year.getFullYear() !== d.start_date.getFullYear();
       })
       .style("opacity", 0.2);
     rects
-      .filter(function (d) {
+      .filter(function(d) {
         return year.getFullYear() === d.start_date.getFullYear();
       })
       .style("opacity", 1);
 
-    const yearBooks = d3.selectAll("#books li").filter(function (d) {
+    const yearBooks = d3.selectAll("#books li").filter(function(d) {
       return year.getFullYear() === d.start_date.getFullYear();
     });
 
@@ -96,13 +97,13 @@ function update(books, year) {
     yearBooks.style("opacity", 1);
 
     d3.selectAll("#books li")
-      .filter(function (d) {
+      .filter(function(d) {
         return year.getFullYear() !== d.start_date.getFullYear();
       })
       .style("opacity", 0.2);
   });
 
-  var yDots = yLines.selectAll(".line").data(y.ticks(3), function (d, i) {
+  var yDots = yLines.selectAll(".line").data(y.ticks(3), function(d, i) {
     return d;
   });
 
@@ -111,7 +112,7 @@ function update(books, year) {
   yDots
     .enter()
     .append("g")
-    .attr("transform", function (d) {
+    .attr("transform", function(d) {
       return "translate(" + 0 + ", " + y(d) + ")";
     })
     .attr("class", "line");
@@ -126,16 +127,16 @@ function update(books, year) {
   yDots
     .append("text")
     .attr("x", width - 20)
-    .attr("y", function (d, i) {
+    .attr("y", function(d, i) {
       return i === 0 ? -10 : -5;
     })
     .attr("text-anchor", "end")
-    .text(function (d, i) {
+    .text(function(d, i) {
       return i == 0 ? "pages" : d;
     });
 
   /* Bars */
-  var shelf = bars.selectAll("g.shelf").data(books, function (d) {
+  var shelf = bars.selectAll("g.shelf").data(books, function(d) {
     // needs a unique value
     return d.start_date + d.isbn;
   });
@@ -146,10 +147,10 @@ function update(books, year) {
   shelf
     .enter()
     .append("g")
-    .attr("transform", function (d) {
+    .attr("transform", function(d) {
       return "translate(" + x(d.start_date) + ", 0)";
     })
-    .attr("class", function (d) {
+    .attr("class", function(d) {
       return "shelf month-" + (d.start_date.getMonth() + 1);
     });
 
@@ -157,14 +158,14 @@ function update(books, year) {
   var rects = shelf
     .append("rect")
     .attr("class", "book")
-    .attr("fill", function (d) {
+    .attr("fill", function(d) {
       return COLORS[d.start_date.getFullYear()]();
     })
     // need to define values before the transition
-    .attr("y", function (d) {
+    .attr("y", function(d) {
       return y(0);
     })
-    .attr("height", function (d) {
+    .attr("height", function(d) {
       return height - y(0);
     });
 
@@ -172,24 +173,24 @@ function update(books, year) {
   rects
     .transition()
     .duration(300)
-    .attr("width", function (d) {
+    .attr("width", function(d) {
       var end_date = new Date(d.end_date.getTime());
       if (d.end_date.getTime() === d.start_date.getTime()) {
         end_date.setDate(end_date.getDate() + 1);
       }
       return x(end_date) - x(d.start_date);
     })
-    .attr("y", function (d) {
+    .attr("y", function(d) {
       return y(d.pages);
     })
-    .attr("height", function (d) {
+    .attr("height", function(d) {
       return height - y(d.pages);
     });
 
   // Interactions
   let previous;
   rects
-    .on("mouseover", function (d, idx) {
+    .on("mouseover", function(d, idx) {
       if (previous) {
         previous.style.backgroundColor = "transparent";
       }
@@ -202,7 +203,7 @@ function update(books, year) {
 
       pages.mouseover(d);
     })
-    .on("click", function () {
+    .on("click", function() {
       // disable the mouseleave and re-enable on the click on the body
       clicked = true;
       d3.event.stopPropagation();
@@ -212,10 +213,10 @@ function update(books, year) {
 
   data = {
     books: books.length,
-    pages: d3.sum(books, function (d) {
+    pages: d3.sum(books, function(d) {
       return d.pages;
     }),
-    days: d3.sum(books, function (d) {
+    days: d3.sum(books, function(d) {
       return (d.end_date - d.start_date) / (1000 * 60 * 60 * 24) + 1;
     }),
   };
@@ -228,11 +229,11 @@ function update(books, year) {
 var data, pages;
 
 var qs = {
-  parse: function (search) {
+  parse: function(search) {
     search = search.substring(1, search.length);
     var parts = search.split("&");
     var obj = {};
-    parts.forEach(function (part) {
+    parts.forEach(function(part) {
       var keyValue = part.split("=");
       obj[keyValue[0]] = keyValue[1];
     });
@@ -241,11 +242,11 @@ var qs = {
 };
 
 var margin = {
-    top: 20,
-    right: 0,
-    bottom: 20,
-    left: 0,
-  },
+  top: 20,
+  right: 0,
+  bottom: 20,
+  left: 0,
+},
   padding = {
     top: 40,
     right: 180,
@@ -309,7 +310,7 @@ window.books = [];
 /* HTML representation */
 
 function showData(d) {
-  return function () {
+  return function() {
     var node = d3.select(this),
       attribute = node.attr("data-attribute"),
       pluralize = node.attr("data-pluralize"),
@@ -331,7 +332,7 @@ function showData(d) {
   };
 }
 
-Pages = function () {
+Pages = function() {
   this.node = svg
     .append("g")
     .attr("class", "pages")
@@ -386,7 +387,7 @@ Pages = function () {
   this.range.style("display", "none");
 };
 
-Pages.prototype.mouseover = function (d) {
+Pages.prototype.mouseover = function(d) {
   d3.selectAll(".lines.y g:not(:first-child), .lines.x").style(
     "display",
     "none"
@@ -398,7 +399,7 @@ Pages.prototype.mouseover = function (d) {
     .transition()
     .duration(750)
     .ease("cubic-out")
-    .attr("transform", function () {
+    .attr("transform", function() {
       return "translate(0, " + (y(d.pages) + padding.top) + ")";
     });
 
@@ -427,7 +428,7 @@ Pages.prototype.mouseover = function (d) {
 
   d3.selectAll(".d3-data").each(showData(d));
 };
-Pages.prototype.mouseout = function () {
+Pages.prototype.mouseout = function() {
   d3.selectAll(".lines.y g:not(:first-child), .lines.x").style(
     "display",
     "block"
@@ -444,13 +445,13 @@ function mouseout() {
   pages.mouseout();
 }
 
-d3.select("#book-wrapper").on("mouseleave", function () {
+d3.select("#book-wrapper").on("mouseleave", function() {
   if (!clicked) {
     mouseout();
   }
 });
 
-d3.select("body").on("click", function () {
+d3.select("body").on("click", function() {
   mouseout();
   clicked = false;
 });
@@ -458,7 +459,7 @@ d3.select("body").on("click", function () {
 // main
 function loadBooks(books, year) {
   if (year) {
-    books = books.filter(function (book) {
+    books = books.filter(function(book) {
       return book.end_date.getFullYear() === year;
     });
   }
@@ -468,6 +469,6 @@ function loadBooks(books, year) {
 var query = qs.parse(document.location.search);
 var year = query.year ? parseInt(query.year, 10) : null;
 
-loadJSON(function (books) {
+loadJSON(function(books) {
   loadBooks(books, year);
 });
