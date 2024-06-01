@@ -181,4 +181,6 @@
 
 ,{"start_date": "2023-07-09", "end_date": "2023-07-21", "language": "en", "year": 2011, "pages": 510, "title": "Wool", "author": "Hugh Howey", "rating": 4, "isbn": "9781476733951", "sex": "male", "country": "USA"}
 ,{"start_date": "2023-07-22", "end_date": "2023-08-18", "language": "en", "year": 2013, "pages": 576, "title": "Shift", "author": "Hugh Howey", "rating": 3, "isbn": "9780544839618", "sex": "male", "country": "USA"}
+,{"start_date": "2023-09-01", "end_date": "2024-03-13", "language": "fr", "year": 1944, "pages": 1705, "title": "Le Comte de Monte Cristo", "author": "Alexandre Dumas", "rating": 5, "isbn": "", "sex": "male", "country": "France"}
+,{"start_date": "2024-03-14", "end_date": "2023-05-31", "language": "en", "year": 2015, "pages": 416, "title": "The Sympathizer", "author": "Viet Thanh Nguyen", "rating": 4, "isbn": "9780802123459 ", "sex": "male", "country": "Vietnam"}
 ]
