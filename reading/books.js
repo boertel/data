@@ -11,6 +11,8 @@ const COLORS = {
   2022: (opacity = 1) => `hsla(348, 73%, 46%, ${opacity}`,
   2023: (opacity = 1) => `hsla(1, 21%, 42%, ${opacity}`,
   2024: (opacity = 1) => `hsla(216, 28%, 49%, ${opacity}`,
+  2025: (opacity = 1) => `hsla(195, 67%, 39%, ${opacity})`,
+  2026: (opacity = 1) => `hsla(285, 45%, 58%, ${opacity})`,
 };
 
 function update(books, year) {
