@@ -189,4 +189,5 @@
 ,{"start_date": "2025-03-02", "end_date": "2025-05-17", "title": "Oryx and Crake", "author": "Margaret Atwood", "language": "en", "year": 2003, "pages": 378, "sex": "female", "rating": 3, "isbn": "9780771008689", "country": "n/a" }
 ,{"start_date": "2025-05-18", "end_date": "2025-06-22", "title": "The Ministry of Time", "author": "Kaliane Bradley", "language": "en", "year": 2024, "pages": 352, "sex": "female", "rating": 4, "isbn": "9781668045145", "country": "UK" }
 ,{"start_date": "2025-06-23", "end_date": "2025-07-04", "title": "Speaker for the Dead", "author": "Orson Scott Card", "language": "en", "year": 1986, "pages": 416, "sex": "male", "rating": 5, "isbn": "9781250773050", "country": "n/a" }
+        ,{"start_date": "2025-07-05", "end_date": "2025-10-12", "title": "Xenocide", "author": "Orson Scott Card", "language": "en", "year": 1991, "pages": 592, "sex": "male", "rating": 3.5, "isbn": "9781857238587", "country": "N/A" }
 ]
