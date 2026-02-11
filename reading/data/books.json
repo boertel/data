@@ -2311,4 +2311,5 @@
     "country": "N/A"
   }
         ,{"start_date": "2025-10-18", "end_date": "2025-10-30", "title": "Solito: A Memoir", "author": "Javier Zamora", "language": "en", "year": 2022, "pages": 400, "sex": "male", "rating": 5, "isbn": "978-0-593-49806-4", "country": "USA/Mexico/El Salvador" }
+        ,{"start_date": "2025-01-24", "end_date": "2026-02-07", "title": "Steve Jobs & the Next Big Thing", "author": "Randall E. Stross", "language": "en", "year": 1993, "pages": 352, "sex": "male", "rating": 3, "isbn": "978-0689121357", "country": "us" }
 ]
