@@ -2389,4 +2389,5 @@
     "country": "Czech Republic"
   }
         ,{"author":"Octavia E. Butler","country":"USA","end_date":"2026-05-29","isbn":"9781453265420","language":"en","pages":328,"rating":5,"sex":"female","start_date":"2026-05-21","title":"Parable of the Sower","year":1993}
+        ,{"author":"Michael Lewis","country":"USA","cover":"https://covers.openlibrary.org/b/isbn/9780241778876-L.jpg","end_date":"2026-06-01","isbn":"9780241778876","language":"en","pages":192,"rating":5,"sex":"male","start_date":"2026-05-30","title":"Who Is Government?","year":2025}
 ]
