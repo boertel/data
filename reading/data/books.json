@@ -2387,10 +2387,74 @@
     "rating": 4,
     "isbn": "9780385546898",
     "country": "Czech Republic"
+  },
+  {
+    "author": "Octavia E. Butler",
+    "country": "USA",
+    "end_date": "2026-05-29",
+    "isbn": "9781453265420",
+    "language": "en",
+    "pages": 328,
+    "rating": 5,
+    "sex": "female",
+    "start_date": "2026-05-21",
+    "title": "Parable of the Sower",
+    "year": 1993
+  },
+  {
+    "author": "Michael Lewis",
+    "country": "USA",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780241778876-L.jpg",
+    "end_date": "2026-06-01",
+    "isbn": "9780241778876",
+    "language": "en",
+    "pages": 192,
+    "rating": 5,
+    "sex": "male",
+    "start_date": "2026-05-30",
+    "title": "Who Is Government?",
+    "year": 2025
+  },
+  {
+    "author": "Michael Herr",
+    "country": "Vietnam",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781417823802-L.jpg",
+    "end_date": "2026-06-20",
+    "isbn": "9781417823802",
+    "language": "en",
+    "pages": 260,
+    "rating": 3,
+    "sex": "male",
+    "start_date": "2026-06-02",
+    "title": "Dispatches",
+    "year": 1977
+  },
+  {
+    "author": "Kaveh Akbar",
+    "country": "USA/Iran",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781035026081-L.jpg",
+    "end_date": "2026-07-15",
+    "isbn": "9781035026081",
+    "language": "en",
+    "pages": 380,
+    "rating": 3,
+    "sex": "",
+    "start_date": "2026-06-21",
+    "title": "Martyr!",
+    "year": 2024
+  },
+  {
+    "author": "John Steinbeck",
+    "country": "USA",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780756992248-L.jpg",
+    "end_date": "2026-08-14",
+    "isbn": "9780756992248",
+    "language": "en",
+    "pages": 256,
+    "rating": 4,
+    "sex": "male",
+    "start_date": "2026-07-16",
+    "title": "Travels with Charley",
+    "year": 1962
   }
-        ,{"author":"Octavia E. Butler","country":"USA","end_date":"2026-05-29","isbn":"9781453265420","language":"en","pages":328,"rating":5,"sex":"female","start_date":"2026-05-21","title":"Parable of the Sower","year":1993}
-        ,{"author":"Michael Lewis","country":"USA","cover":"https://covers.openlibrary.org/b/isbn/9780241778876-L.jpg","end_date":"2026-06-01","isbn":"9780241778876","language":"en","pages":192,"rating":5,"sex":"male","start_date":"2026-05-30","title":"Who Is Government?","year":2025}
-        ,{"author":"Michael Herr","country":"Vietnam","cover":"https://covers.openlibrary.org/b/isbn/9781417823802-L.jpg","end_date":"2026-06-20","isbn":"9781417823802","language":"en","pages":260,"rating":0,"sex":"male","start_date":"2026-06-02","title":"Dispatches","year":1977}
-        ,{"author":"Kaveh Akbar","country":"USA/Iran","cover":"https://covers.openlibrary.org/b/isbn/9781035026081-L.jpg","end_date":"2026-07-15","isbn":"9781035026081","language":"en","pages":380,"rating":0,"sex":"","start_date":"2026-06-21","title":"Martyr!","year":2024}
-        ,{"author":"John Steinbeck","country":"USA","cover":"https://covers.openlibrary.org/b/isbn/9780756992248-L.jpg","end_date":"2026-08-14","isbn":"9780756992248","language":"en","pages":256,"rating":4,"sex":"male","start_date":"2026-07-16","title":"Travels with Charley","year":1962}
 ]
