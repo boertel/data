@@ -2456,8 +2456,61 @@
     "start_date": "2026-07-16",
     "title": "Travels with Charley",
     "year": 1962
+  },
+  {
+    "author": "Emmanuel Saez",
+    "country": "us",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781324002734-L.jpg",
+    "end_date": "2026-08-25",
+    "isbn": "9781324002734",
+    "language": "en",
+    "pages": 232,
+    "rating": 4,
+    "sex": "male",
+    "start_date": "2026-08-15",
+    "title": "Triumph of Injustice",
+    "year": 2019
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "country": "n/a",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780575079038-L.jpg",
+    "end_date": "2026-09-26",
+    "isbn": "9780575079038",
+    "language": "en",
+    "pages": 352,
+    "rating": 5,
+    "sex": "female",
+    "start_date": "2026-08-26",
+    "title": "The Dispossessed",
+    "year": 1974
+  },
+  {
+    "author": "Tade Thompson",
+    "country": "Nigeria",
+    "cover": "https://covers.openlibrary.org/b/id/14330969-L.jpg",
+    "end_date": "2026-10-22",
+    "isbn": "9780316449052",
+    "language": "en",
+    "pages": 423,
+    "rating": 4,
+    "sex": "male",
+    "start_date": "2026-09-27",
+    "title": "Rosewater",
+    "year": 2016
+  },
+  {
+    "author": "Emily St. John Mandel",
+    "country": "US",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780593321478-L.jpg",
+    "end_date": "2026-11-16",
+    "isbn": "9780593321478",
+    "language": "en",
+    "pages": 320,
+    "rating": 4,
+    "sex": "female",
+    "start_date": "2026-10-23",
+    "title": "Exit Party",
+    "year": 2026
   }
-        ,{"author":"Emmanuel Saez","country":"us","cover":"https://covers.openlibrary.org/b/isbn/9781324002734-L.jpg","end_date":"2026-08-25","isbn":"9781324002734","language":"en","pages":232,"rating":4,"sex":"male","start_date":"2026-08-15","title":"Triumph of Injustice","year":2019}
-        ,{"author":"Ursula K. Le Guin","country":"n/a","cover":"https://covers.openlibrary.org/b/isbn/9780575079038-L.jpg","end_date":"2026-09-26","isbn":"9780575079038","language":"en","pages":352,"rating":5,"sex":"female","start_date":"2026-08-26","title":"The Dispossessed","year":1974}
-        ,{"author":"Tade Thompson","country":"Nigeria","cover":"https://covers.openlibrary.org/b/id/14330969-L.jpg","end_date":"2026-10-22","isbn":"9780316449052","language":"en","pages":423,"rating":4,"sex":"male","start_date":"2026-09-27","title":"Rosewater","year":2016}
 ]
